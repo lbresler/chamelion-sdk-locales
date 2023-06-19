@@ -10,7 +10,9 @@
 			"imageSource": "Source de l'image",
 			"addMergeTag": "Ajouter un champ de fusion",
 			"rightPanelLabel": "Détails",
-			"disabled": "Aucun paramètre disponible pour cet élément",
+			"disabled": "Aucun paramètre disponible pour cet 
+			
+			élément",
 			"enabled": "Afficher les paramètres",
 			"contentHeaderBlockLockTooltip": {
 				"lockMsg": "Vous ne pouvez pas éditer le contenu de cet élément car la section sélectionnée est verrouillée."
@@ -59,7 +61,7 @@
 					"emptyExpression": "Expression vide"
 				}
 			},
-			"elements": "Elements",
+			"elements": "Eléments",
 			"brand": "Marque",
 			"body": "Page",
 			"text": "Text",
@@ -86,7 +88,7 @@
 			"block-level-conditional": "Condition au niveau de la section",
 			"dynamic-image": "Image dynamique",
 			"dragAndDropElementIntoTheEditorArea": "Glisser et déposer les élements dans la zone d'édition",
-			"advanced": "Advancé",
+			"advanced": "Avancé",
 			"content": "Contenu",
 			"structure": "Structure",
 			"close": "Fermer",
@@ -285,7 +287,7 @@
 				"equalize": "Ajuster",
 				"desktopSpacings": "Espacement sur Ordinateur",
 				"left": "Gauche",
-				"inBetween": "Entre deux",
+				"inBetween": "Entre les colonnes",
 				"right": "Droite",
 				"leftRight": "De gauche à droite",
 				"rightLeft": "De droite à gauche",
@@ -306,7 +308,7 @@
 					"right": "Droite",
 					"Paddings": "Espacement",
 					"Margins": "Marges",
-					"separate": "Séparations"
+					"separate": "Détailler"
 				}
 			},
 			"social": {
