@@ -94,11 +94,11 @@
 			"search": "Chercher dans les sections",
 			"libraries": "Bibliothèques des blocs",
 			"hiddenWarning": "Les blocs sont temporairement masqués pendant que le Glisser-Déposer est en cours.",
-			"dragErrorIcon": "Drag error icon",
+			"dragErrorIcon": "Erreur de déplacement",
 			"blockRenamedSuccess": "La section a été renommée.",
 			"blockConfirmDelete": "Etes vous sûr de vouloir supprimer cette section?",
 			"blockDeletedSuccess": "Section supprimée",
-			"noResult": "Pas de résultat. :( Affinez votre recherche. ;)",
+			"noResult": "Pas de résultat. : ( Affinez votre recherche. ;)",
 			"desktopMessage": "Le menu de gauche est masqué pendant le déplacement.",
 			"mobileMessage": "Restez appuyé sur l'élément pendant quelques secondes pour commencer à le déplacer."
 		},
@@ -135,7 +135,7 @@
 					"selectVariable": "Selectionner une variable",
 					"unlinkVariable": "Dissocier la variable",
 					"bgVariable": "Image de fond variable",
-					"hoverStyling": "Style de survol",
+					"hoverStyling": "Style au survol",
 					"bgHoverColor": "Couleur arrière-plan du survol"
 				}
 			},
@@ -156,8 +156,8 @@
 				"saveTo": "Enregistrer sous...",
 				"save": "ENREGISTRER",
 				"folderNotSelected": "Le répertoire n'est pas sélectionné. Veuillez sélectionner un répertoire pour sauvegarder ce bloc.",
-				"blockNotSelected": "La section n'est pas sélectionnée! Il s'agit peut-être d'une erreur, veuillez contacter le support!",
-				"blockSavedSuccess": "La section a été sauvegardé."
+				"blockNotSelected": "La section n'est pas sélectionnée ! Il s'agit peut-être d'une erreur, veuillez contacter le support !",
+				"blockSavedSuccess": "La section a été sauvegardée."
 			},
 			"border": {
 				"title": "Bordure",
@@ -196,7 +196,7 @@
 				"mobileFluid": "Fluide sur Mobile",
 				"labels": {
 					"title": "Taille de l'élément",
-					"fitToText": "Ajuster au text",
+					"fitToText": "Ajuster au texte",
 					"fixed": "Fixé",
 					"width": "Largeur"
 				}
@@ -218,7 +218,7 @@
 						"warning": "Ce code n'apparaîtra qu'en mode générateur AMP et il ne sera pas modifié dans le code HTML de l'e-mail exporté. Utilisez cette fonctionnalité à vos risques et périls, car elle peut affecter d'autres parties du code HTML et entraîner des problèmes de rendu. Remarque supplémentaire : le code ajouté ici ne s'affichera pas dans l'éditeur ou dans l'aperçu."
 					},
 					"rules": {
-						"maxLength": "Max 25 characters"
+						"maxLength": "25 characters max"
 					}
 				}
 			},
@@ -229,7 +229,7 @@
 				"lockWidth": "Verrouiller la largeur",
 				"width": "Largeur",
 				"labels": {
-					"title": "Columns"
+					"title": "Colonnes"
 				}
 			},
 			"dynamicImageSize": {
@@ -277,7 +277,7 @@
 					"inputLabel": "Marqueur",
 					"inputHint": "Entrer votre marqueur ici"
 				},
-				"rule": "Marker should not contain '<' or '>' characters, as they will be removed in the generated HTML!"
+				"rule": "Le marqueur ne doit pas contenir de caractères '<' ou '>', car ils seraient retirés dans le code HTML généré !"
 			},
 			"multicol": {
 				"title": "Multicolonne",
@@ -294,7 +294,7 @@
 				"mobileSpacings": "Espacements sur mobile",
 				"infoLine1": "Les espacements gauche et droit ne sont pas pris en compte sur mobile afin d'élargir votre contenu sur les petits écrans.",
 				"infoLine2": "Si vous souhaitez utiliser les mêmes espacements sur les affichages d'ordinateur et de mobiles, veuillez ajouter un bloc,",
-				"infoLine3": "ajustez ses marges et ses espacements et déplacez le bloc multi-colonnes dans ce bloc.",
+				"infoLine3": "ajustez ses marges et ses espacements et déplacez le bloc multicolonnes dans ce bloc.",
 				"top": "Haut",
 				"bottom": "Bas"
 			},
@@ -360,7 +360,7 @@
 				"labels": {
 					"fontFamily": "Famille de polices",
 					"fontSize": "Taille",
-					"lineHeight": "Hauteur deligne",
+					"lineHeight": "Hauteur de ligne",
 					"fontColor": "Paramètres du texte",
 					"startTyping": "Commencer à taper pour rechercher",
 					"letterSpacing": "Espacement entre lettres",
@@ -387,8 +387,8 @@
 				},
 				"warning": "Cela changera la largeur du contenu de ce bloc.",
 				"warningBox": {
-					"line1": "600 px est toujours la largeur d'e-mail idéale.",
-					"line2": "Les e-mails plus larges que 600-650 px peuvent ne pas convenir à tous vos abonnés'."
+					"line1": "600 px reste la largeur d'e-mail idéale.",
+					"line2": "Les e-mails plus larges que 600-650 px peuvent ne pas convenir à tous vos destinataires."
 				}
 			},
 			"video": {
@@ -431,7 +431,7 @@
 			"customCode": "#Code personnalisé",
 			"hint": "Nom personnalisé de votre code",
 			"label": "Titre",
-			"pasteCodeHere": "Copier code ici",
+			"pasteCodeHere": "Copier le code ici",
 			"update": "Mettre à jour"
 		},
 		"connectionLost": "Plus de connexion internet",
@@ -444,7 +444,7 @@
 		"clearVariables": "Supprimer",
 		"changeVariables": "Changer",
 		"openVariableSelector": "Ouvrir le selecteur de variables",
-		"selectedVariable": "Variable séléctionnée",
+		"selectedVariable": "Variable sélectionnée",
 		"variableModal": {
 			"color": "Couleur",
 			"fontStack": "Font Stack",
@@ -488,7 +488,7 @@
 			"label": "Nom variable*",
 			"rules": {
 				"required": "Le nom est obligatoire",
-				"notEmpty": "Name shouldn't be empty",
+				"notEmpty": "Le nom ne peut pas rester vide",
 				"noSpecialChar": " les caractères *|:<>[]{}()';@&$ ne sont pas autorisés",
 				"tooLong": "Le nom de la variable est trop long",
 				"unique": "La variable existe déjà en tant que {0}"
@@ -539,12 +539,12 @@
 		"addLinkVariable": {
 			"label": "Lien",
 			"rules": {
-				"required": "Le lien vers l'url est obligatoire"
+				"required": "Le lien vers l'URL est obligatoire"
 			}
 		},
 		"addImageVariable": {
 			"label": "URl vers l'image source",
-			"chooseFromGallery": "Choisir depuis la gallerie",
+			"chooseFromGallery": "Choisir depuis la galerie",
 			"rules": {
 				"required": "L'URL de l'image est obligatoire",
 				"error": "URL non valide"
@@ -616,7 +616,7 @@
 	"enterApply": "Taper ENTRÉE pour appliquer",
 	"errors": {
 		"supportedFileTypes": "Types de fichiers pris en charge : jpg, jpeg, png and gif",
-		"httpsMissing": "URL invalide. utiliser un lien avec le protocole HTTPS.",
+		"httpsMissing": "URL invalide. Utiliser un lien avec le protocole HTTPS.",
 		"invalidImageUrl": "URL invalide"
 	},
 	"consistencyCheckPlugin": {

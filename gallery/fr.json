@@ -23,7 +23,7 @@
 		"deleteDialogTitle": "Supprimer l'image",
 		"smallImageWarning": "Très petite",
 		"size": "Taille: {imageWidth} x {imageHeight}",
-		"ratio": "Proportion de l'image: {aspectRatio}",
+		"ratio": "Proportion de l'image : {aspectRatio}",
 		"saved": "{0} est enregistrée"
 	},
 	"fileUploadDropZone": {
@@ -54,28 +54,28 @@
 		"renameDialogAcceptLabel": "Renommer",
 		"renameDialogTitle": "Renommer le répertoire",
 		"renameSuccessMessage": "Le répertoire a été renommé !",
-		"nameRequiredText": "Le nom est requis!"
+		"nameRequiredText": "Le nom est requis !"
 	},
 	"photoEditorPane": {
 		"cropToFit": "Rogner"
 	},
 	"photoCropper": {
 		"crop": {
-			"custom": "custom",
-			"square": "square",
-			"landscape": "landscape",
+			"custom": "personnalisé",
+			"square": "carré",
+			"landscape": "paysage",
 			"portrait": "portrait"
 		},
 		"edit": {
-			"rotateRight": "rotate",
-			"rotateLeft": "rotate",
-			"flipX": "flip X",
-			"flipY": "flip Y",
-			"downscale": "downscale"
+			"rotateRight": "tourner",
+			"rotateLeft": "tourner",
+			"flipX": "inversion X",
+			"flipY": "inversion Y",
+			"downscale": "réduire"
 		},
 		"header": {
-			"reset": "reset",
-			"save": "save"
+			"reset": "réinitialiser",
+			"save": "enregistrer"
 		}
 	},
 	"searchZone": {
