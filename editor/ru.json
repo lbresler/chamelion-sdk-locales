@@ -159,7 +159,7 @@
 			},
 			"border": {
 				"title": "Обводка",
-				"separate": "Separate",
+				"separate": "Отдельно",
 				"borderRadius": "Закругление",
 				"top": "Сверху",
 				"right": "Справа",
@@ -326,7 +326,7 @@
 				"title": "Социальные сети",
 				"labels": {
 					"title": "Социальные сети",
-					"iconSet": "Наборк иконок",
+					"iconSet": "Набор иконок",
 					"colorScheme": "Цветовая схема",
 					"url": "URL",
 					"addIcon": "Добавить новую",
