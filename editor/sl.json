@@ -1,0 +1,633 @@
+{
+	"app": {
+		"loading": "Nalagam drevo...",
+		"confirmDelete": "Ali si prepričan, da želiš izbrisati ta element?"
+	},
+	"editorMain": {
+		"contentHeader": {
+			"altText": "Alt opis slike",
+			"textVariable": "Besedilna spremenljivka",
+			"imageSource": "Vir slike",
+			"addMergeTag": "Dodaj oznako za združevanje",
+			"rightPanelLabel": "Podrobnosti",
+			"disabled": "Nastavitve za ta element niso na voljo",
+			"enabled": "Preklop nastavitev",
+			"contentHeaderBlockLockTooltip": {
+				"lockMsg": "Vsebine tega elementa ni mogoče urejati, ker je izbrani gradnik zaklenjen."
+			},
+			"contentHeaderImageActions": {
+				"selectNewImage": "Izberi novo sliko",
+				"srcVariable": "Vir spremenljivke",
+				"moreOptions": "Več možnosti",
+				"selectVariable": "Izberi spremenljivko",
+				"unlinkVariable": "Odstrani povezavo spremenljivke",
+				"editImage": "Uredi sliko"
+			},
+			"contentHeaderLinkInput": {
+				"linkVariable": "Spremenljivka povezave",
+				"link": "Povezava",
+				"title": "Naslov",
+				"unlinkVariable": "Odstrani povezavo spremenljivke",
+				"removeLink": "Odstrani povezavo",
+				"addLink": "Dodaj povezavo",
+				"protocol": "Protokol",
+				"emailAddress": "E-mail naslov",
+				"subject": "Zadeva",
+				"message": "Sporočilo",
+				"url": "Url",
+				"addMergeTag": "Dodaj oznako za združevanje",
+				"selectVariable": "Izberi spremenljivko",
+				"cancel": "Prekliči",
+				"save": "Shrani",
+				"mandatoryField": "Obvezno polje",
+				"invalidEmail": "Nepravilen naslov e-maila",
+				"openLinkMenu": "Odpri meni za urejanje url povezave"
+			}
+		},
+		"newElement": {
+			"dontShow": "Tega namiga ne prikazuj več.",
+			"blockElement": {
+				"delete": "IZBRIŠI"
+			},
+			"logicalTreeviewDrawer": {
+				"logicalStructure": "Logična struktura",
+				"hideLogicalStructure": "Skrij logično strukturo",
+				"labels": {
+					"conditional": "Pogojnik",
+					"block-level-conditional": "Raven pogojev gradnika",
+					"else": "Drugače",
+					"emptyExpression": "Prazen pogoj"
+				}
+			},
+			"elements": "Elementi",
+			"brand": "Blagovna znamka",
+			"body": "Vsebina",
+			"text": "Tekst",
+			"image": "Slika",
+			"button": "Gumb",
+			"divider": "Ločnik",
+			"social": "Socialna omrežja",
+			"code": "Koda",
+			"video": "Video",
+			"fullwidth": "Gradnik",
+			"column": "Stolpec",
+			"moreThanFive": "...",
+			"hidden": ".",
+			"box": "Zaboj",
+			"BOX": "Zaboj",
+			"multicolumn": "Stolpci",
+			"COLUMNS": "STOLPCI",
+			"BLOCK": "GRADNIK",
+			"columns": "STOLPCI",
+			"block": "Gradnik",
+			"loop": "Zanka",
+			"block-level-loop": "Raven zanke gradnika",
+			"conditional": "Pogojnik",
+			"block-level-conditional": "Raven pogojev gradnika",
+			"dynamic-image": "Dinamična slika",
+			"dragAndDropElementIntoTheEditorArea": "Povleci in spusti elemente v območje urejevalnika",
+			"advanced": "Napredno",
+			"content": "Vsebina",
+			"structure": "Struktura",
+			"close": "Zapri",
+			"blocks": "Gradniki",
+			"search": "Išči v gradnikih",
+			"libraries": "Knjižnica gradnikov",
+			"hiddenWarning": "Gradniki so med vlečenjem in spuščanjem začasno skriti, da bi se izognili težavam z zmogljivostjo v nedavni različici brskalnika Google Chrome, ki je imela napake.",
+			"dragErrorIcon": "Povleci ikono napake",
+			"blockRenamedSuccess": "Gradnik uspešno preimenovan.",
+			"blockConfirmDelete": "Si prepričan, da želiš izbrisati ta gradnik?",
+			"blockDeletedSuccess": "Gradnik uspešno izbrisan",
+			"noResult": "Ni rezultatov. :( Izboljšaj svoje iskanje. ;)",
+			"desktopMessage": "Leva plošča se samodejno zapre in odpre, ko jo povlečeš.",
+			"mobileMessage": "Element drži nekaj sekund, da ga začneš vleči."
+		},
+		"sharedComponents": {
+			"toolboxHeader": {
+				"lockMsg": "Nastavitev tega elementa ni mogoče urejati, ker je izbrani gradnik zaklenjen.",
+				"subscriptionLockMsg": "Za uporabo te funkcije je potrebna nadgradnja naročniškega načrta"
+			}
+		},
+		"toolboxes": {
+			"alignment": {
+				"labels": {
+					"title": "Poravnava elementa",
+					"left": "Levo",
+					"center": "Sredinsko",
+					"right": "Desno"
+				}
+			},
+			"appliedExpressions": {
+				"title": "Uporabljeni pogoji",
+				"else": "Drugače",
+				"emptyExpression": "Prazen pogoj"
+			},
+			"background": {
+				"labels": {
+					"title": "Ozadje elementa",
+					"colorPickerLabel": "Barva ozadja",
+					"bgImageText": "Slika ozadja",
+					"btnSelect": "SPREMENI",
+					"btnEdit": "UREDI",
+					"bgImagePosition": "Pozicija",
+					"bgImageRepeat": "Ponovi",
+					"bgImageSize": "Velikost",
+					"selectVariable": "Izberi spremenljivko",
+					"unlinkVariable": "Odstrani povezavo spremenljivke",
+					"bgVariable": "Spremenljivka slike ozadja",
+					"hoverStyling": "Premakni miško na oblikovanje",
+					"bgHoverColor": "Premakni miško na barvo ozadja"
+				}
+			},
+			"blockLock": {
+				"labels": {
+					"title": "Gradnik zaklenjen"
+				},
+				"editEnabled": "Urejanje omogočeno",
+				"editEnabledInfo": "Oblikovanje in vsebino gradnika je mogoče urejati.",
+				"lockedDesign": "Zasnova zaklenjena",
+				"lockedDesignInfo": "Oblikovanja gradnika ni mogoče spreminjati, mogoče pa je posodobiti besedila, slike in URL naslove.",
+				"lockedDesignContent": "Zaklenjeni zasnova & vsebina",
+				"lockedDesignContentInfo": "Niti oblikovanja niti vsebine bloka ni mogoče spreminjati."
+			},
+			"blockSaveDrawer": {
+				"title": "Nepoimenovan gradnik",
+				"notSaved": "GRADNIK NI SHRANJEN",
+				"saveTo": "Shrani v...",
+				"save": "SHRANI",
+				"folderNotSelected": "Mapa ni izbrana! Izberi mapo za shranjevanje tega gradnika!",
+				"blockNotSelected": "Blok ni izbran! Morda gre za napako v aplikaciji. Obrni se na podporo!",
+				"blockSavedSuccess": "Gradnik uspešno shranjen."
+			},
+			"border": {
+				"title": "Obroba",
+				"separate": "Posamično",
+				"borderRadius": "Radij obrobe",
+				"top": "Zgoraj",
+				"right": "Desno",
+				"bottom": "Spodaj",
+				"left": "Levo",
+				"labels": {
+					"title": "Obroba",
+					"borderSize": "Širina",
+					"borderStyle": "Slog",
+					"borderColor": "Barva obrobe"
+				}
+			},
+			"branchManagement": {
+				"title": "Razvejitve",
+				"addNewBranch": "Dodaj novo vejo",
+				"moveDownByOne": "Premakni se za eno navzdol",
+				"moveUpByOne": "Premakni se za eno navzgor",
+				"elseMustBeAtBottom": "Veja Drugače mora biti na dnu. Če jo želiš premakniti, jo spremeni v ukaz Če drugače.",
+				"selectYourExpression": "Izberi pogoj",
+				"duplicateBranch": "Podvoji vejo",
+				"deleteBranch": "Izbriši vejo",
+				"expression": "Pogoj",
+				"types": {
+					"if": "Če",
+					"else-if": "Če drugače",
+					"else": "Drugače"
+				},
+				"showLogicalStructure": "Prikaži logično strukturo",
+				"hideLogicalStructure": "Skrij logično strukturo"
+			},
+			"buttonSize": {
+				"mobileFluid": "Tekoče na mobilniku",
+				"labels": {
+					"title": "Velikost elementa",
+					"fitToText": "Prilagodi besedilu",
+					"fixed": "Fiksno",
+					"width": "Širina"
+				}
+			},
+			"code": {
+				"labels": {
+					"inputLabel": "Naslov",
+					"inputHint": "Ime kodnega elementa",
+					"title": "Koda",
+					"editHTML": "Uredi kodo",
+					"warning": "Ta koda bo prikazana nedotaknjena v izvoženem HTML-ju emaila. Uporaba te funkcije je na lastno odgovornost, saj lahko vpliva na druge dele HTML-ja in povzroči težave s prikazovanjem. Dodatna opomba: tukaj dodana koda se ne bo prikazala v urejevalniku ali predogledu.",
+					"isAmp": "AMP mode",
+					"amp": {
+						"inputLabel": "Naslov",
+						"inputHint": "Ime tvojega AMP kodnega elementa",
+						"editHTML": "Uredi AMP HTML kodo",
+						"editCSS": "Uredi AMP CSS kodo",
+						"ampCSS": "AMP CSS",
+						"warning": "Ta koda bo prikazana samo v načinu generatorja AMP, v izvoženem HTML-ju e-maila pa bo nedotaknjena. Uporaba te funkcije je na lastno odgovornost, saj lahko vpliva na druge dele HTML in povzroči težave s prikazovanjem. Dodatna opomba: tukaj dodana koda se ne bo prikazala v urejevalniku ali predogledu."
+					},
+					"rules": {
+						"maxLength": "Največ 25 znakov"
+					}
+				}
+			},
+			"column": {
+				"column": "Stolpec",
+				"showMobile": "Prikaži na mobilniku",
+				"showMobileInfo": "Preklop \"Prikaži na mobilniku\" je onemogočen v posameznih stolpcih, ker je zlaganje \"Brez\" v nadrejenem elementu Stolpci.",
+				"lockWidth": "Zakleni širino",
+				"width": "Širina",
+				"labels": {
+					"title": "Stolpci"
+				}
+			},
+			"dynamicImageSize": {
+				"title": "Velikost elementa",
+				"width": "Širina",
+				"height": "Višina",
+				"fluidOnMobile": "Tekoče na mobilniku"
+			},
+			"expression": {
+				"titles": {
+					"loop": "Zanka",
+					"block-level-loop": "Raven zanke gradnika"
+				},
+				"inputLabel": "Pogoj",
+				"inputHint": "Vnesi svoj pogoj tukaj",
+				"selectYourExpression": "Izberi svoj pogoj",
+				"showLogicalStructure": "Prikaži logično strukturo",
+				"hideLogicalStructure": "Skrij logično strukturo",
+				"outputPreview": {
+					"output": "Rezultat",
+					"inTemplatingLanguage": "v {0}",
+					"youCanChooseDifferentIn": "Možno je izbrati drug jezik za oblikovanje predlog v {0}",
+					"content": "Vsebina"
+				}
+			},
+			"imageSize": {
+				"title": "Velikost elementa",
+				"width": "Širina",
+				"height": "Višina",
+				"slider": "Velikost slike",
+				"fluidOnMobile": "Tekoče na mobilniku"
+			},
+			"line": {
+				"lineColor": "Barva črte",
+				"lineStyles": "Slog črte",
+				"labels": {
+					"title": "Črta",
+					"height": "Višina črte",
+					"transparent": "Prosojno"
+				}
+			},
+			"marker": {
+				"labels": {
+					"title": "Ime gradnika",
+					"inputLabel": "Ime gradnika",
+					"inputHint": "Vstavi ime gradnika tukaj"
+				},
+				"rule": "Ime gradnika ne sme vsebovati znakov '<' ali '>', saj bodo v ustvarjenem jeziku HTML odstranjeni!"
+			},
+			"multicol": {
+				"title": "Stolpci",
+				"addColumn": "Dodaj stolpec",
+				"equalize": "Izenači",
+				"desktopSpacings": "Razmiki na namizju",
+				"left": "Levo",
+				"inBetween": "Med stolpci",
+				"right": "Desno",
+				"leftRight": "Od leve proti desni",
+				"rightLeft": "Od desne proti levi",
+				"dontReorder": "Ohrani vrstni red stolpcev",
+				"columnStackingMobile": "Zlaganje stolpcev na mobilniku",
+				"mobileSpacings": "Razmiki na mobilniku",
+				"infoLine1": "Levi in desni razmiki se v mobilniku ne prikažejo, da je vsebina na manjših zaslonih širša.",
+				"infoLine2": "Če želiš uporabiti enake razmike za namizni in mobilni prikaz, dodaj zaboj,",
+				"infoLine3": "prilagodi njegove odmike/robove in vnesi stolpce v ta zaboj.",
+				"top": "Zgoraj",
+				"bottom": "Spodaj"
+			},
+			"positioningToolbox": {
+				"labels": {
+					"top": "Zgoraj",
+					"left": "Levo",
+					"bottom": "Spodaj",
+					"right": "Desno",
+					"Paddings": "Notranji odmiki",
+					"Margins": "Zunanji odmiki",
+					"separate": "Posamično"
+				}
+			},
+			"social": {
+				"title": "Socialna omrežja",
+				"labels": {
+					"title": "Socialna omrežja",
+					"iconSet": "Nabor ikon",
+					"colorScheme": "Barvna shema",
+					"url": "URL",
+					"addIcon": "Dodaj novo ikono",
+					"layout": "Usmerjenost",
+					"align": {
+						"text": "Poravnava",
+						"left": "Levo",
+						"center": "Sredinsko",
+						"right": "Desno"
+					},
+					"size": {
+						"text": "Velikost",
+						"s": "S",
+						"m": "M",
+						"l": "L",
+						"xl": "XL"
+					},
+					"iconSpacing": "Razmik med ikonami",
+					"protocol": "Protokol"
+				},
+				"icons": "Ikone",
+				"iconTypes": {
+					"circle": "okroglo",
+					"transparentCircle": "okroglo (prosojno)",
+					"flat": "plosko",
+					"square": "kvadratno",
+					"roundedSquare": "kvadratno (zaobljeno)"
+				},
+				"colorSchemes": {
+					"colorful": "barvna",
+					"black": "črna",
+					"grey": "siva",
+					"white": "bela"
+				}
+			},
+			"textLink": {
+				"labels": {
+					"title": "Povezava",
+					"underline": "Podčrtano",
+					"linkColor": "Barva povezave"
+				}
+			},
+			"typography": {
+				"labels": {
+					"fontFamily": "Pisava",
+					"fontSize": "Velikost",
+					"lineHeight": "Višina vrstice",
+					"fontColor": "Nastavitve besedila",
+					"startTyping": "Začni tipkati za iskanje",
+					"letterSpacing": "Razmik med črkami",
+					"customLetterSpacing": "Razmik med črkami po meri"
+				}
+			},
+			"typographyEditor": {
+				"title": "Pisava",
+				"h1": "Naslov 1",
+				"h2": "Naslov 2",
+				"h3": "Naslov 3"
+			},
+			"visibility": {
+				"labels": {
+					"title": "Vidnost elementa",
+					"showOnMobile": "Prikaži na mobilcu",
+					"showOnDesktop": "Prikaži na namizju",
+					"showInAmp": "Prikaži v AMP"
+				}
+			},
+			"width": {
+				"labels": {
+					"title": "Širina"
+				},
+				"warning": "To bo spremenilo širino vsebine v tem gradniku.",
+				"warningBox": {
+					"line1": "600 px je dandanes še vedno najvarnejša širina e-maila.",
+					"line2": "E-maili, ki so širši od 600-650 px, morda ne bodo ustrezali podoknu za branje naročnikov e-mailov, v programu Outlook ali Yahoo Mailu, pri manjših velikostih zaslona, kot je 1366x768."
+				}
+			},
+			"video": {
+				"labels": {
+					"title": "Lastnosti videa",
+					"src": "Vir videa",
+					"altText": "Opis videa",
+					"iconColor": "Barva ikone",
+					"iconType": "Tip ikone",
+					"iconSize": "Velikost ikone"
+				},
+				"rules": {
+					"src": "Nepodprt ponudnik videoposnetkov ali pokvarjena povezava do videoposnetka"
+				}
+			},
+			"title": "Širina vsebine e-maila",
+			"bodyBackground": "Ozadje vsebine",
+			"block": "Gradnik",
+			"content": "Vsebina",
+			"blockBackGround": "Ozadje gradnika",
+			"blockContentWidth": "Širina vsebine gradnika",
+			"blockContentBackground": "Ozadje vsebine gradnika",
+			"textBackground": "Ozadje teksta",
+			"buttonProperties": "Lastnosti gumba",
+			"boxBackground": "Ozadje zaboja",
+			"buttonBackground": "Ozadje gumba",
+			"buttonAlignment": "Poravnava gumba",
+			"buttonTextSettings": "Nastavitve besedila gumba",
+			"multicolumnBackground": "Ozadje stolpcev",
+			"imageAlignment": "Poravnava slik",
+			"thumbnailAlignment": "Poravnava prikazne slike",
+			"imageBackground": "Ozadje slike",
+			"dividerBackground": "Ozadje ločnika",
+			"columnBackground": "Ozadje stolpca",
+			"dynamicImageAlignment": "Poravnava dinamične slike",
+			"dynamicImageBackground": "Ozadje dinamične slike"
+		},
+		"codeElementEditorModal": {
+			"label": "Naslov",
+			"hint": "Ime kodnega elementa",
+			"customCode": "#Koda po meri",
+			"pasteCodeHere": "Prilepi kodo tukaj",
+			"cancel": "Prekliči",
+			"update": "Posodobi"
+		},
+		"connectionLost": "Naprava je izgubila internetno povezavo.",
+		"welcome": "Dobrodošel nazaj!"
+	},
+	"header": {
+		"zoom": "Povečava"
+	},
+	"variable": {
+		"clearVariables": "Odstrani",
+		"changeVariables": "Zamenjaj",
+		"openVariableSelector": "Odpri izbirnik spremenljivk",
+		"selectedVariable": "Izberi spremenljivko",
+		"variableModal": {
+			"color": "Barva",
+			"fontStack": "Nabor pisav",
+			"image": "Slika",
+			"link": "Povezava",
+			"text": "Tekst",
+			"how_to_use": "Kako uporabiti",
+			"preview": "Predogled",
+			"editVariable": "Uredi spremenljivko",
+			"changedProps": "Uspešno nadomeščene {0} ujemajoče se vrednosti s spremenljivko.",
+			"selectVariable": "Izberi spremenljivko",
+			"brandVariable": "Spremenljivka blagovne znamke",
+			"actions": {
+				"use": "Uporabi",
+				"addNew": "Dodaj novo",
+				"save": "Shrani",
+				"update": "Posodobi",
+				"cancel": "Prekliči"
+			},
+			"accept": "OK"
+		},
+		"variableList": {
+			"name": "Ime",
+			"value": "Vrednost",
+			"size": "Velikost",
+			"aspectRatio": "Razmerje",
+			"actions": "Dejanja",
+			"canEdit": "Posodobi spremenljivko",
+			"canNotEdit": "Ni dovoljenja za posodobitev te spremenljivke",
+			"canDelete": "Izbriši spremenljivko",
+			"canNotDelete": "Ni dovoljenja za brisanje te spremenljivke",
+			"noVariableOfType": "Za ustvarjanje prve spremenljivke {0}, pritisni gumb \"Dodaj novo\".",
+			"deleteWarning": "{0} element(-i) še vedno uporablja(-jo) to spremenljivko. Si prepričan, da jo želiš izbrisati?",
+			"findAndRemove": "Povsod odstrani spremenljivko, vendar ohrani vrednosti",
+			"findAndReplace": "Poišči ustrezne vrednosti in jih nadomesti s spremenljivko"
+		},
+		"variablePreview": {
+			"selectToPreview": "Izberi spremenljivko za njen podrobnejši predogled."
+		},
+		"variableInputName": {
+			"label": "Ime spremenljivke*",
+			"rules": {
+				"required": "Ime je zahtevano",
+				"notEmpty": "Ime ne sme biti prazno",
+				"noSpecialChar": "*|:<>[]{}()';@&$ znaki niso dovoljeni",
+				"tooLong": "Ime spremenljivke je predolgo",
+				"unique": "Spremenljivka že obstaja kot tip {0}"
+			}
+		},
+		"variableInputDescription": {
+			"label": "Opis (opcijsko)",
+			"rules": {
+				"maxLength90": "Opis je predolg"
+			}
+		},
+		"howToUse": {
+			"color": {
+				"line1": "Zaradi barvnih spremenljivk je spreminjanje barvne teme e-maila zelo enostavno.",
+				"line2": "Kot najboljšo prakso svetujemo določitev vsaj najbolj uporabljene barve blagovne znamke in besedila.",
+				"line3": "Ko so barvne spremenljivke določene in povezane z vsemi želenimi elementi, je mogoče skupaj posodobili njihove barve."
+			},
+			"fontStack": {
+				"line1": "Tipografija je bistven element identitete vsake blagovne znamke, vse pa se začne z družino pisav.",
+				"line2": "Kot najboljšo prakso svetujemo uporabo največ dveh različni družin pisav v e-mailu: eno za naslove in drugo za odstavke.",
+				"line3": "Ko so spremenljivke pisave opredeljene in povezane z vsakim želenim elementom, jih je mogoče posodobiti skupaj."
+			},
+			"image": {
+				"line1": "S slikovnimi spremenljivkami je mogoče v predlogi e-maila priročno zamenjati slikovne elemente, značilne za blagovno znamko.",
+				"line2": "Kot najboljšo prakso svetujemo določitev logotipa podjetja, ikon po meri, ozadja slik ali drugih ponavljajočih se elementov dekoratorja kot spremenljivk slik.",
+				"line3": "Opredeljene slikovne spremenljivke, povezane z vsemi želenimi elementi, je mogoče posodobiti skupaj."
+			},
+			"link": {
+				"line1": "S spremenljivkami povezav je mogoče v predlogi e-maila priročno zamenjati povezave, značilne za blagovno znamko.",
+				"line2": "Vsako povezavo, ki ni dodana z oznako za združevanje, vendar je v e-mailu potrebna večkrat, na primer povezavo do domače strani, je treba opredeliti kot spremenljivko povezave in ne kot običajen naslov URL.",
+				"line3": "Če bi se e-mail ponovno uporabilo z drugo blagovno znamko ali bi ga bilo treba posodobiti, je mogoče te povezave v njem zamenjali skupaj."
+			},
+			"text": {
+				"line1": "Besedilne spremenljivke so bile ustvarjene, da je mogoče prilagoditi pisno vsebino več besedilnih vrednosti, kot so gumbi, ALT teksti ali naslovi skupaj.",
+				"line2": "Na primer, namesto da se na vsak gumb v predlogi e-maila napiše \"Preberi več\", je mogoče ustvariti spremenljivko \"gumb-tekst-1\" in jo dodeliti vsakemu od njih.",
+				"line3": "Če bi bilo pozneje potrebno zamenjati klic k dejanju na gumbih, je potrebno le enkrat spremeniti vrednost spremenljivke za besedilo."
+			}
+		},
+		"addTextVariable": {
+			"label": "Tekst",
+			"modeSwitchLabel": "Uporabi HTML oblikovanje",
+			"modeSwitchLabelInfo": "Shrani spremenljivko brez oznak HTML in jo uporabi kot Alt opis slike ali naslov povezave",
+			"addSimpleText": "Vnesi neoblikovan tekst tukaj",
+			"rules": {
+				"required": "To polje je obvezno"
+			}
+		},
+		"addLinkVariable": {
+			"label": "Povezava",
+			"rules": {
+				"required": "Zahteva se povezava url"
+			}
+		},
+		"addImageVariable": {
+			"label": "URL vira slike",
+			"chooseFromGallery": "Izberi iz galerije",
+			"rules": {
+				"required": "Zahtevan url slike",
+				"error": "Neveljaven url"
+			}
+		},
+		"addFontStackVariable": {
+			"label": "Povezava"
+		},
+		"addColorVariable": {
+			"label": "Šestnajstiška koda barve",
+			"rules": {
+				"notValidColor": "Neveljavna barva"
+			}
+		}
+	},
+	"cursorWrapper": {
+		"containsVariables": "Ta element vsebuje spremenljivke"
+	},
+	"editorDropZoneBlockLevelBottom": {
+		"move": "Premakni {0}",
+		"new": "Nov {0}",
+		"newBlock": "Nov gradnik",
+		"newBlockInside": "Nov gradnik znotraj {0}",
+		"types": {
+			"fullwidth": "Gradnik",
+			"loop": "Raven zanke gradnika",
+			"block-level-loop": "Raven zanke gradnika",
+			"conditional": "Raven pogojev gradnika",
+			"block-level-conditional": "Raven pogojev gradnika"
+		}
+	},
+	"editorDropZoneBlockLevelTop": {
+		"move": "Premakni {0}",
+		"new": "Nov {0}",
+		"newBlock": "Nov gradnik",
+		"newBlockInside": "Nov gradnik znotraj {0}",
+		"types": {
+			"fullwidth": "Gradnik",
+			"loop": "Raven zanke gradnika",
+			"block-level-loop": "Raven zanke gradnika",
+			"conditional": "Raven pogojev gradnika",
+			"block-level-conditional": "Raven pogojev gradnika"
+		}
+	},
+	"editorDropZoneRoot": {
+		"dragDrop": "Povleci & spusti element sem",
+		"dropElement": "Spusti element sem"
+	},
+	"editorElementCode": {
+		"codePrefix": "#Koda - "
+	},
+	"editorElementFullWidth": {
+		"blockLock": "Zaklepanje gradnika {0}",
+		"dragBlock": "Povleci gradnik {0}",
+		"saveBlock": "Shrani gradnik {0}",
+		"duplicateBlock": "Podvoji gradnik {0}",
+		"deleteBlock": "Izbriši gradnik {0}",
+		"types": {
+			"fullwidth": "",
+			"block-level-conditional": "(Raven pogojev gradnika)",
+			"block-level-loop": "(Raven zanke gradnika)"
+		}
+	},
+	"editorPlaceHolderEmpty": {
+		"dragDrop": "Povleci & spusti element sem",
+		"dropElement": "Spusti element sem"
+	},
+	"close": "Zapri",
+	"enterApply": "Za uporabo pritisni ENTER",
+	"errors": {
+		"supportedFileTypes": "Podprte vrste datotek: samo jpg, jpeg, png in gif!",
+		"httpsMissing": "Nepravilen URL. Prosimo, da se slika prikaže iz protokola HTTPS.",
+		"invalidImageUrl": "To ni veljaven URL naslov"
+	},
+	"consistencyCheckPlugin": {
+		"warning": "Med preverjanjem neskladnosti predloge se je zgodila napaka.\nPonovno nalaganje predloge jo lahko odpravi, vendar lahko povzroči izgubo nekaterih najnovejših dejanj.\nŽelite ponovno naložiti predlogo?"
+	},
+	"diffPlugin": {
+		"warning": "V predlogi je 15 ali več sprememb, ki niso bile uspešno poslane v strežnik, in narejene spremembe morda ne bodo shranjene. To je lahko posledica počasne internetne povezave.",
+		"title": "Odkrita težava s povezavo",
+		"ok": "OK"
+	},
+	"ckEditor": {
+		"addVariable": "Dodaj spremenljivko"
+	}
+}

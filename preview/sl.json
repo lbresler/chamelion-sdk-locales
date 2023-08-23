@@ -1,0 +1,11 @@
+{
+	"previewHeader": {
+		"previewMode": "Način predogleda",
+		"darkMode": "Temni način (Outlook)",
+		"lightMode": "Svetli način"
+	},
+	"previewBody": {
+		"mobileView": "Mobilnik",
+		"desktopView": "Namizje"
+	}
+}
