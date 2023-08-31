@@ -1,0 +1,130 @@
+{
+	"defaultEditorImageTitle": "Uredi sliko v urejevalniku",
+	"app": {
+		"headerTitle": "Galerija",
+		"myImages": "Moje slike",
+		"stockPhotos": "Brskaj med stock slikami"
+	},
+	"fileList": {
+		"searchNoResult": "Ni slik.",
+		"imageCardActions": {
+			"save": "Dodaj v galerijo",
+			"pick": "Izberi",
+			"crop": "Obreži, da se prilega",
+			"edit": "Uredi",
+			"delete": "Izbriši"
+		},
+		"imageRemoved": "Slika uspešno odstranjena!"
+	},
+	"fileListItem": {
+		"dialogAcceptLabel": "OK",
+		"dialogDeclineLabel": "Prekliči",
+		"deleteDialogText": "Si prepričan, da želiš izbrisati to sliko? Tega postopka ni mogoče preklicati.",
+		"deleteDialogTitle": "Izbriši sliko",
+		"smallImageWarning": "Premajhna",
+		"size": "Velikost: {imageWidth} x {imageHeight}",
+		"ratio": "Razmerje: {aspectRatio}",
+		"saved": "{0} je shranjena"
+	},
+	"fileUploadDropZone": {
+		"dropImage": "Povleci slike sem\nali {action} za prenos\n(Največja velikost datoteke: {maxFileSize} MB.)",",
+		"browseAction": "brskaj",
+		"or": "ali",
+		"pasteUrl": "Sharni sliko iz URL naslova",
+		"browseStockPhotos": "Brskaj med stock slikami"
+	},
+	"fileUploadUrlZone": {
+		"urlUploadInfo": "Nalaganje iz protokola 'http://' ni podprto. Sliko prosim posreduj s protokolom 'https://' ali jo shrani v računalnik in jo naloži iz svojih datotek.",
+		"urlUploadSupportedImages": "Podprti so sledeči formati slik: {supportedImageFormats}",
+		"urlUploadSubmit": "Dodaj v galerijo"
+	},
+	"folderTreeView": {
+		"createButtonText": "Ustvari podmapo",
+		"createDialogAcceptLabel": "Ustvari",
+		"createDialogTitle": "Ustvari novo mapo",
+		"createSuccessMessage": "Podmapa ustvarjena!",
+		"deleteButtonText": "Izbriši mapo",
+		"dialogDeclineLabel": "Prekliči",
+		"deleteDialogText": "Si prepričan, da želiš izbrisati to mapo z vsemi njenimi podmapami? Tega postopka ni mogoče preklicati.",
+		"deleteDialogTitle": "Izbriši mapo",
+		"dialogAcceptLabel": "OK",
+		"dialogLabel": "Ime mape",
+		"deleteSuccessMessage": "Mapa uspešno izbrisana!",
+		"renameButtonText": "Preimenuj mapo",
+		"renameDialogAcceptLabel": "Preimenuj",
+		"renameDialogTitle": "Preimenuj mapo",
+		"renameSuccessMessage": "Mapa uspešno preimenovana!",
+		"nameRequiredText": "Ime je zahtevano!"
+	},
+	"photoEditorPane": {
+		"cropToFit": "Obreži, da se prilega"
+	},
+	"photoCropper": {
+		"crop": {
+			"custom": "po meri",
+			"square": "kvadratno",
+			"landscape": "ležeče",
+			"portrait": "pokončno"
+		},
+		"edit": {
+			"rotateRight": "zavrti",
+			"rotateLeft": "zavrti",
+			"flipX": "zrcali X",
+			"flipY": "zrcali Y",
+			"downscale": "pomanjšaj"
+		},
+		"header": {
+			"reset": "ponastavi",
+			"save": "shrani"
+		}
+	},
+	"searchZone": {
+		"search": "Išči",
+		"arrangeSearch": "Razvrsti slike od",
+		"searchOptions": {
+			"A-Z": "A - Z",
+			"Z-A": "Z - A",
+			"newest": "Najnovejše",
+			"oldest": "Najstarejše"
+		}
+	},
+	"stockPhotoListItem": {
+		"pexelImport": "Dodaj v galerijo"
+	},
+	"stockPhotosModal": {
+		"stockPhotos": "Stock slike",
+		"size": "Velikost slike",
+		"search": "Išči",
+		"noResultRefine": "Ni rezultatov. Prosim, izboljšaj svoje iskanje!",
+		"pexelChooseFrom": "Brezplačno lahko izbiraš med milijoni visokokakovostnih slik",
+		"pexelLicense": "Licenca podjetja Pexels",
+		"pexelPoweredBy": "Omogoča",
+		"pexelLicenseInfo": "Vse slike so objavljene pod {license}",
+		"imageSizes": {
+			"tiny": "Zelo majhna",
+			"landscape": "Ležeča",
+			"portrait": "Pokončna",
+			"small": "Majhna",
+			"medium": "Srednja",
+			"large": "Velika",
+			"large2x": "Velika 2x",
+			"original": "Original"
+		}
+	},
+	"uploadModal": {
+		"uploadModalTitle": "Opozorilo",
+		"uploadModalText": "Si prepričan, da želiš preklicati postopek nalaganja?",
+		"uploadModalContinue": "Nadaljuj z nalaganjem",
+		"uploadModalCancel": "Prekliči proces",
+		"uploadingInProgress": "Nalagam slike...",
+		"uploadingInFinished": "Nalaganje končano"
+	},
+	"errors": {
+		"supportedFileTypes": "Podprte vrste datotek: izključno {0}, {1}, {2} in {3}!",
+		"notImage": "To ni slikovna datoteka!",
+		"tooLargeSize": "Vaša datoteka je prevelika. Maksimum: {maxFileSize} MB",
+		"httpsMissing": "Nepravilen URL. Sliko prosim posreduj iz HTTPS protokola.",
+		"invalidImageUrl": "To ni veljaven URL naslov",
+		"editImage": "Napaka pri nalaganju slike za urejanje."
+	}
+}

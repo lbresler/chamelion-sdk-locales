@@ -1,0 +1,16 @@
+{
+	"appContent": {
+		"mobileView": "Mobilnik",
+		"desktopView": "Namizje"
+	},
+	"variableToolbox": {
+		"title": "Uredi spremenljivko",
+		"nameLabel": "Ime",
+		"valueLabel": "Vrednost",
+		"buttons": {
+			"save": "Shrani",
+			"cancel": "Prekliči"
+		},
+		"inputRequired": "Vnos je obvezen"
+	}
+}

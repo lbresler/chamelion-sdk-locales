@@ -1,0 +1,17 @@
+{
+	"title": "Uvozi HTML",
+	"placeholder": "Tukaj vstavi HTML",
+	"importerSubtitle": "HTML koda",
+	"cancelButton": "Prekliči",
+	"importButton": "Uvozi",
+	"tryAgainButton": "Uporabi drugo predlogo",
+	"timeoutButton": "Poskusi ponovno",
+	"nextButton": "Ustvari e-mail",
+	"loading": "Prosim, počakaj. Uvoz lahko traja približno 1 minuto, da se proces zaključi.",
+	"warnings": "Opozorila",
+	"errors": "Napake",
+	"closeNotificationBarTitle": "Zapri",
+	"noWarningsMessage": "Hura, nobenih opozoril! :)",
+	"noErrorsMessage": "Hura, nobenih napak! :)",
+	"timeoutMessage": "Uvoz ni mogel obdelati procesa v določenem časovnem okviru. Prosim, poskusi ponovno."
+}
