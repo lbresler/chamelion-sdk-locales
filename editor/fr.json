@@ -49,6 +49,11 @@
 			"blockElement": {
 				"delete": "Supprimer"
 			},
+			"componentElement": {
+				"highlightMainComponent": "Highlight Main Component",
+				"detach": "Detach",
+				"delete": "Delete"
+			},
 			"logicalTreeviewDrawer": {
 				"logicalStructure": "Structure logique",
 				"hideLogicalStructure": "Masquer la structure logique",
@@ -72,6 +77,9 @@
 			"fullwidth": "pleine largeur",
 			"column": "Colonne",
 			"moreThanFive": "...",
+			"title": "Title",
+			"paragraph": "Paragraph",
+			"list": "List",
 			"hidden": ".",
 			"box": "bloc",
 			"BOX": "Bloc",
@@ -91,16 +99,35 @@
 			"structure": "Structure",
 			"close": "Fermer",
 			"blocks": "sections",
+			"components": "Components",
 			"search": "Chercher dans les sections",
+			"searchComponents": "Search components",
 			"libraries": "Bibliothèques des blocs",
 			"hiddenWarning": "Les blocs sont temporairement masqués pendant que le Glisser-Déposer est en cours.",
 			"dragErrorIcon": "Erreur de déplacement",
 			"blockRenamedSuccess": "La section a été renommée.",
 			"blockConfirmDelete": "Etes vous sûr de vouloir supprimer cette section?",
 			"blockDeletedSuccess": "Section supprimée",
+			"componentConfirmDelete": "Deleting this component will affect {0} element(s){1}. By only deleting, the link to the main component will remain and it can be restored later. Do you want to detach this component or just continue to delete?",
+			"componentConfirmDeleteComponent": "and {0} component(s)",
+			"componentConfirmDetach": "Detaching this component will affect {0} element(s){1}.\n Do you want to detach this component?",
+			"componentConfirmDetachComponent": "and {0} component(s)",
+			"deleteComponentTitle": "Delete component?",
+			"detachComponentTitle": "Detach component?",
+			"detachAndDelete": "Detach & delete",
+			"onlyDelete": "Only Delete",
+			"componentDeletedSuccess": "Component deleted successfully",
+			"componentDetachedSuccess": "Component detached successfully",
+			"componentSavedSuccess": "Component saved successfully",
+			"componentUpdatedSuccess": "Component updated successfully",
 			"noResult": "Pas de résultat. : ( Affinez votre recherche. ;)",
 			"desktopMessage": "Le menu de gauche est masqué pendant le déplacement.",
 			"mobileMessage": "Restez appuyé sur l'élément pendant quelques secondes pour commencer à le déplacer."
+		},
+		"leftPanel": {
+			"messages": {
+				"failBlockRemove": "Failed to remove block '{}'"
+			}
 		},
 		"sharedComponents": {
 			"toolboxHeader": {
@@ -114,7 +141,8 @@
 					"title": "Alignement",
 					"left": "Gauche",
 					"center": "Centrer",
-					"right": "Droite"
+					"right": "Droite",
+					"justify": "Justify"
 				}
 			},
 			"appliedExpressions": {
@@ -230,6 +258,54 @@
 				"width": "Largeur",
 				"labels": {
 					"title": "Colonnes"
+				}
+			},
+			"components": {
+				"labels": {
+					"title": "Components",
+					"component": "Component",
+					"empty": "No component",
+					"add": "Add component",
+					"save": "Save component",
+					"edit": "Edit component",
+					"detach": "Detach component",
+					"restore": "Restore component",
+					"reset": "Reset component",
+					"noData": "No components available",
+					"noSearchData": "No results for '{0}'"
+				},
+				"drawer": {
+					"title": "Add new component",
+					"label": "Component name",
+					"rules": {
+						"required": "Name is required",
+						"noSpecialChar": "*|\":<>[]{}`\\/()';@&$ characters are not allowed",
+						"tooLong": "The component name is too long",
+						"notEmpty": "Name shouldn't be empty"
+					},
+					"placeholder": "Untitled component",
+					"cancelBtn": "Cancel",
+					"saveBtn": "Save",
+					"switchLabel": "Save as a sub-component",
+					"repeatedName": "Component must have a unique name"
+				},
+				"updateDialog": {
+					"title": "Update component?",
+					"message": "Saving changes will apply to all of the elements using this component. Are you sure you want to update?",
+					"acceptLabel": "Update",
+					"declineLabel": "Cancel"
+				},
+				"restoreDialog": {
+					"title": "Name already exists",
+					"message": "This name already existed before, but the main component has been deleted. Saving in this name will possibly change {0} components. Do you want to continue?",
+					"acceptLabel": "Save",
+					"declineLabel": "Cancel"
+				},
+				"saveNewDialog": {
+					"title": "Component can't be updated",
+					"message": "Updating this component is not possible, because it has been previously deleted. You can however, save it as a new one. Do you want to save it?",
+					"acceptLabel": "Save",
+					"declineLabel": "Cancel"
 				}
 			},
 			"dynamicImageSize": {
@@ -358,20 +434,32 @@
 			},
 			"typography": {
 				"labels": {
+					"format": "Format",
 					"fontFamily": "Famille de polices",
 					"fontSize": "Taille",
 					"lineHeight": "Hauteur de ligne",
 					"fontColor": "Paramètres du texte",
 					"startTyping": "Commencer à taper pour rechercher",
 					"letterSpacing": "Espacement entre lettres",
-					"customLetterSpacing": "Espacement personnalisé entre les lettres"
+					"customLetterSpacing": "Espacement personnalisé entre les lettres",
+					"lineSpacing": "Line Spacing"
+				}
+			},
+			"listMarker": {
+				"labels": {
+					"types": "Marker Types",
+					"color": "Marker Color",
+					"fontSize": "Marker Font Size",
+					"fontFamily": "Marker Font Family"
 				}
 			},
 			"typographyEditor": {
 				"title": "Paramètres du corps du texte",
 				"h1": "Titre 1",
 				"h2": "Titre 2",
-				"h3": "Titre 3"
+				"h3": "Titre 3",
+				"listMarker": "List Marker",
+				"text": "Text"
 			},
 			"visibility": {
 				"labels": {
@@ -416,6 +504,7 @@
 			"boxBackground": "Fond du bloc",
 			"buttonBackground": "Fond bouton",
 			"buttonAlignment": "Alignement bouton",
+			"textAlignment": "Text alignment",
 			"buttonTextSettings": "Propriétés du boutton",
 			"multicolumnBackground": "Fond multicolonne",
 			"imageAlignment": "Alignement image",
@@ -531,6 +620,7 @@
 			"label": "Texte",
 			"modeSwitchLabel": "Utiliser le format HTML",
 			"modeSwitchLabelInfo": "Enregistrez la variable sans balises HTML et utilisez-les comme texte alternatif ou titre de lien",
+			"subTypeInfo": "The used text formats in this variable editor modal will be overwritten by the text element's format option that the variable is linked to",
 			"addSimpleText": "Entrer votre texte non formaté ici",
 			"rules": {
 				"required": "Ceci est un champ obligatoire"

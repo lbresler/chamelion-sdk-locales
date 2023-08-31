@@ -49,6 +49,11 @@
 			"blockElement": {
 				"delete": "TÖRLÉS"
 			},
+			"componentElement": {
+				"highlightMainComponent": "Highlight Main Component",
+				"detach": "Detach",
+				"delete": "Delete"
+			},
 			"logicalTreeviewDrawer": {
 				"logicalStructure": "Logikai struktúra",
 				"hideLogicalStructure": "Logikai struktúra elrejtése",
@@ -71,6 +76,9 @@
 			"video": "Videó",
 			"fullwidth": "Blokk",
 			"column": "Oszlop",
+			"title": "Cím",
+			"paragraph": "Bekezdés",
+			"list": "List",
 			"moreThanFive": "...",
 			"hidden": ".",
 			"box": "Doboz",
@@ -91,16 +99,35 @@
 			"structure": "Stuktúra",
 			"close": "Bezár",
 			"blocks": "Blokkok",
+			"components": "Components",
 			"search": "Blokk keresése",
+			"searchComponents": "Search components",
 			"libraries": "Blokk könyvtárak",
 			"hiddenWarning": "A blokkok ideiglenesen nem elérhetőek, amíg a művelet tart. Ezzel elkerülendő a teljesítményvesztést.",
 			"dragErrorIcon": "Mozgatási hiba ikon",
 			"blockRenamedSuccess": "Blokk sikeresen átnevezve.",
 			"blockConfirmDelete": "Biztos ki akarod törölni ezt a blokkot?",
 			"blockDeletedSuccess": "Blokk sikeresen törölve",
+			"componentConfirmDelete": "Deleting this component will affect {0} element(s){1}. By only deleting, the link to the main component will remain and it can be restored later. Do you want to detach this component or just continue to delete?",
+			"componentConfirmDeleteComponent": "and {0} component(s)",
+			"componentConfirmDetach": "Detaching this component will affect {0} element(s){1}.\n Do you want to detach this component?",
+			"componentConfirmDetachComponent": "and {0} component(s)",
+			"deleteComponentTitle": "Delete component?",
+			"detachComponentTitle": "Detach component?",
+			"detachAndDelete": "Detach & delete",
+			"onlyDelete": "Only Delete",
+			"componentDeletedSuccess": "Component deleted successfully",
+			"componentDetachedSuccess": "Component detached successfully",
+			"componentSavedSuccess": "Component saved successfully",
+			"componentUpdatedSuccess": "Component updated successfully",
 			"noResult": "Nincs találat. :( Keress újra. ;)",
 			"desktopMessage": "A bal oldali panel húzáskor automatikusan bezáródik és kinyílik.",
 			"mobileMessage": "Tartsa lenyomva az elemet néhány másodpercig a húzás megkezdéséhez."
+		},
+		"leftPanel": {
+			"messages": {
+				"failBlockRemove": "Failed to remove block '{}'"
+			}
 		},
 		"sharedComponents": {
 			"toolboxHeader": {
@@ -114,7 +141,8 @@
 					"title": "Element pozíció",
 					"left": "Bal",
 					"center": "Közép",
-					"right": "Jobb"
+					"right": "Jobb",
+					"justify": "Justify"
 				}
 			},
 			"appliedExpressions": {
@@ -230,6 +258,54 @@
 				"width": "Szélesség",
 				"labels": {
 					"title": "Oszlop"
+				}
+			},
+			"components": {
+				"labels": {
+					"title": "Components",
+					"component": "Component",
+					"empty": "No component",
+					"add": "Add component",
+					"save": "Save component",
+					"edit": "Edit component",
+					"detach": "Detach component",
+					"restore": "Restore component",
+					"reset": "Reset component",
+					"noData": "No components available",
+					"noSearchData": "No results for '{0}'"
+				},
+				"drawer": {
+					"title": "Add new component",
+					"label": "Component name",
+					"rules": {
+						"required": "Name is required",
+						"noSpecialChar": "*|\":<>[]{}`\\/()';@&$ characters are not allowed",
+						"tooLong": "The component name is too long",
+						"notEmpty": "Name shouldn't be empty"
+					},
+					"placeholder": "Untitled component",
+					"cancelBtn": "Cancel",
+					"saveBtn": "Save",
+					"switchLabel": "Save as a sub-component",
+					"repeatedName": "Component must have a unique name"
+				},
+				"updateDialog": {
+					"title": "Update component?",
+					"message": "Saving changes will apply to all of the elements using this component. Are you sure you want to update?",
+					"acceptLabel": "Update",
+					"declineLabel": "Cancel"
+				},
+				"restoreDialog": {
+					"title": "Name already exists",
+					"message": "This name already existed before, but the main component has been deleted. Saving in this name will possibly change {0} components. Do you want to continue?",
+					"acceptLabel": "Save",
+					"declineLabel": "Cancel"
+				},
+				"saveNewDialog": {
+					"title": "Component can't be updated",
+					"message": "Updating this component is not possible, because it has been previously deleted. You can however, save it as a new one. Do you want to save it?",
+					"acceptLabel": "Save",
+					"declineLabel": "Cancel"
 				}
 			},
 			"dynamicImageSize": {
@@ -356,22 +432,34 @@
 					"linkColor": "A link színe"
 				}
 			},
+			"listMarker": {
+				"labels": {
+					"types": "Marker Types",
+					"color": "Marker Color",
+					"fontSize": "Marker Font Size",
+					"fontFamily": "Marker Font Family"
+				}
+			},
 			"typography": {
 				"labels": {
+					"format": "Formátum",
 					"fontFamily": "Betűtipus",
 					"fontSize": "Betű méret",
 					"lineHeight": "Sormagasság",
 					"fontColor": "Szöveg beállítások",
 					"startTyping": "Kezd el gépelni a kereséshez",
 					"letterSpacing": "Betűköz",
-					"customLetterSpacing": "Egyedi"
+					"customLetterSpacing": "Egyedi",
+					"lineSpacing": "Line Spacing"
 				}
 			},
 			"typographyEditor": {
 				"title": "Szövegbeállítások",
 				"h1": "Fejléc 1",
 				"h2": "Fejléc 2",
-				"h3": "Fejléc 3"
+				"h3": "Fejléc 3",
+				"listMarker": "List Marker",
+				"text": "Text"
 			},
 			"visibility": {
 				"labels": {
@@ -416,6 +504,7 @@
 			"boxBackground": "A doboz háttere",
 			"buttonBackground": "Gomb háttere",
 			"buttonAlignment": "Gomb elhelyezkedése",
+			"textAlignment": "Text alignment",
 			"buttonTextSettings": "Gomb szöveg beállitások",
 			"multicolumnBackground": "Az oszlopok háttere",
 			"imageAlignment": "Kép elhelyezkedése",
@@ -531,6 +620,7 @@
 			"label": "Szöveg",
 			"modeSwitchLabel": "HTML formázás",
 			"modeSwitchLabelInfo": "Ments HTML formázás nélkül, ha kép alternetív szövegeként vagy link címeként is szeretnéd használni a változót.",
+			"subTypeInfo": "A változó szerkesztő ablakban használt szövegformátumokat felülírja a szöveg elem formátum opciója, amelyben a változó használva van.",
 			"addSimpleText": "Ide írhatod a formázás nélküli szöveget",
 			"rules": {
 				"required": "Ez egy kötelező mező"
