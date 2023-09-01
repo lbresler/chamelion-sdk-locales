@@ -49,6 +49,11 @@
 			"blockElement": {
 				"delete": "刪除"
 			},
+			"componentElement": {
+				"highlightMainComponent": "Highlight Main Component",
+				"detach": "Detach",
+				"delete": "Delete"
+			},
 			"logicalTreeviewDrawer": {
 				"logicalStructure": "邏輯架構",
 				"hideLogicalStructure": "隱藏邏輯架構",
@@ -71,6 +76,9 @@
 			"video": "視頻",
 			"fullwidth": "區塊",
 			"column": "欄",
+			"title": "标题",
+			"paragraph": "段落",
+			"list": "List",
 			"moreThanFive": "...",
 			"hidden": ".",
 			"box": "框",
@@ -91,16 +99,35 @@
 			"structure": "架構",
 			"close": "關閉",
 			"blocks": "區塊",
+			"components": "Components",
 			"search": "區塊中搜尋",
+			"searchComponents": "Search components",
 			"libraries": "區塊匯集",
 			"hiddenWarning": "當拖拉進行中，區塊暫時隱藏以避免最近的 Google Chrome version 很多 bugs",
 			"dragErrorIcon": "Drag error icon",
 			"blockRenamedSuccess": "Block renamed successfully.",
 			"blockConfirmDelete": "Are you sure you want to delete this block?",
 			"blockDeletedSuccess": "Block deleted successfully",
+			"componentConfirmDelete": "Deleting this component will affect {0} element(s){1}. By only deleting, the link to the main component will remain and it can be restored later. Do you want to detach this component or just continue to delete?",
+			"componentConfirmDeleteComponent": "and {0} component(s)",
+			"componentConfirmDetach": "Detaching this component will affect {0} element(s){1}.\n Do you want to detach this component?",
+			"componentConfirmDetachComponent": "and {0} component(s)",
+			"deleteComponentTitle": "Delete component?",
+			"detachComponentTitle": "Detach component?",
+			"detachAndDelete": "Detach & delete",
+			"onlyDelete": "Only Delete",
+			"componentDeletedSuccess": "Component deleted successfully",
+			"componentDetachedSuccess": "Component detached successfully",
+			"componentSavedSuccess": "Component saved successfully",
+			"componentUpdatedSuccess": "Component updated successfully",
 			"noResult": "沒有結果 :( 請修改你的搜尋 ;)",
 			"desktopMessage": "拖动时，左边的面板会自动关闭和打开",
 			"mobileMessage": "按住元素几秒钟，开始拖动它"
+		},
+		"leftPanel": {
+			"messages": {
+				"failBlockRemove": "Failed to remove block '{}'"
+			}
 		},
 		"sharedComponents": {
 			"toolboxHeader": {
@@ -114,7 +141,8 @@
 					"title": "對齊元件",
 					"left": "左",
 					"center": "中",
-					"right": "右"
+					"right": "右",
+					"justify": "Justify"
 				}
 			},
 			"appliedExpressions": {
@@ -230,6 +258,54 @@
 				"width": "闊",
 				"labels": {
 					"title": "欄"
+				}
+			},
+			"components": {
+				"labels": {
+					"title": "Components",
+					"component": "Component",
+					"empty": "No component",
+					"add": "Add component",
+					"save": "Save component",
+					"edit": "Edit component",
+					"detach": "Detach component",
+					"restore": "Restore component",
+					"reset": "Reset component",
+					"noData": "No components available",
+					"noSearchData": "No results for '{0}'"
+				},
+				"drawer": {
+					"title": "Add new component",
+					"label": "Component name",
+					"rules": {
+						"required": "Name is required",
+						"noSpecialChar": "*|\":<>[]{}`\\/()';@&$ characters are not allowed",
+						"tooLong": "The component name is too long",
+						"notEmpty": "Name shouldn't be empty"
+					},
+					"placeholder": "Untitled component",
+					"cancelBtn": "Cancel",
+					"saveBtn": "Save",
+					"switchLabel": "Save as a sub-component",
+					"repeatedName": "Component must have a unique name"
+				},
+				"updateDialog": {
+					"title": "Update component?",
+					"message": "Saving changes will apply to all of the elements using this component. Are you sure you want to update?",
+					"acceptLabel": "Update",
+					"declineLabel": "Cancel"
+				},
+				"restoreDialog": {
+					"title": "Name already exists",
+					"message": "This name already existed before, but the main component has been deleted. Saving in this name will possibly change {0} components. Do you want to continue?",
+					"acceptLabel": "Save",
+					"declineLabel": "Cancel"
+				},
+				"saveNewDialog": {
+					"title": "Component can't be updated",
+					"message": "Updating this component is not possible, because it has been previously deleted. You can however, save it as a new one. Do you want to save it?",
+					"acceptLabel": "Save",
+					"declineLabel": "Cancel"
 				}
 			},
 			"dynamicImageSize": {
@@ -356,22 +432,34 @@
 					"linkColor": "線顏色"
 				}
 			},
+			"listMarker": {
+				"labels": {
+					"types": "Marker Types",
+					"color": "Marker Color",
+					"fontSize": "Marker Font Size",
+					"fontFamily": "Marker Font Family"
+				}
+			},
 			"typography": {
 				"labels": {
+					"format": "格式",
 					"fontFamily": "字體",
 					"fontSize": "大小",
 					"lineHeight": "行高",
 					"fontColor": "文字設定",
 					"startTyping": "開始輸入搜尋",
 					"letterSpacing": "字距",
-					"customLetterSpacing": "自訂字距"
+					"customLetterSpacing": "自訂字距",
+					"lineSpacing": "Line Spacing"
 				}
 			},
 			"typographyEditor": {
 				"title": "內文設定",
 				"h1": "標題 1",
 				"h2": "標題 2",
-				"h3": "標題 3"
+				"h3": "標題 3",
+				"listMarker": "List Marker",
+				"text": "文本"
 			},
 			"visibility": {
 				"labels": {
@@ -416,6 +504,7 @@
 			"boxBackground": "框背景",
 			"buttonBackground": "Button background",
 			"buttonAlignment": "Button alignment",
+			"textAlignment": "Text alignment",
 			"buttonTextSettings": "Button text settings",
 			"multicolumnBackground": "多欄背景",
 			"imageAlignment": "排齊圖片",
@@ -531,6 +620,7 @@
 			"label": "文字",
 			"modeSwitchLabel": "Use HTML formatting",
 			"modeSwitchLabelInfo": "Save variable without HTML tags and use them as Alt-text or Link title",
+			"subTypeInfo": "The used text formats in this variable editor modal will be overwritten by the text element's format option that the variable is linked to",
 			"addSimpleText": "Enter your unformatted text here",
 			"rules": {
 				"required": "名稱是必須"

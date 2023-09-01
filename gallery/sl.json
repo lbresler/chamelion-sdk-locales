@@ -1,5 +1,5 @@
 {
-	"defaultEditorImageTitle": "Uredi sliko v urejevalniku",
+	"defaultEditorImageTitle": "Untitled",
 	"app": {
 		"headerTitle": "Galerija",
 		"myImages": "Moje slike",
@@ -27,7 +27,7 @@
 		"saved": "{0} je shranjena"
 	},
 	"fileUploadDropZone": {
-		"dropImage": "Povleci slike sem\nali {action} za prenos\n(Največja velikost datoteke: {maxFileSize} MB.)",",
+		"dropImage": "Povleci slike sem\nali {action} za prenos\n(Največja velikost datoteke: {maxFileSize} MB.)",
 		"browseAction": "brskaj",
 		"or": "ali",
 		"pasteUrl": "Sharni sliko iz URL naslova",
