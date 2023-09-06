@@ -283,9 +283,9 @@
 						"tooLong": "The component name is too long",
 						"notEmpty": "Name shouldn't be empty"
 					},
-					"placeholder": "Untitled component",
-					"cancelBtn": "Cancel",
-					"saveBtn": "Save",
+					"placeholder": "Sans titre",
+					"cancelBtn": "Annuler",
+					"saveBtn": "Enregistrer",
 					"switchLabel": "Save as a sub-component",
 					"repeatedName": "Component must have a unique name"
 				},
