@@ -1,7 +1,12 @@
 {
 	"app": {
 		"loading": "正在載入樹架構...",
-		"confirmDelete": "Are you sure you want to delete this element?"
+		"confirmDelete": {
+			"title": "Warning",
+			"text": "Are you sure you want to delete this elements?",
+			"accept": "OK",
+			"decline": "Cancel"
+		}
 	},
 	"editorMain": {
 		"contentHeader": {
@@ -45,14 +50,24 @@
 			}
 		},
 		"newElement": {
-			"dontShow": "不再顯示這提示",
+			"dontShow": {
+				"title": "Info",
+				"text": "不再顯示這提示",
+				"accept": "OK",
+				"decline": "Cancel"
+			},
 			"blockElement": {
 				"delete": "刪除"
 			},
 			"componentElement": {
 				"highlightMainComponent": "Highlight Main Component",
 				"detach": "Detach",
-				"delete": "Delete"
+				"delete": "Delete",
+				"replaceAll": "Find & Replace",
+				"replaceAllDialog": {
+					"message": "Replaced style on {0} element(s) with component",
+					"acceptLabel": "OK"
+				}
 			},
 			"logicalTreeviewDrawer": {
 				"logicalStructure": "邏輯架構",
@@ -106,14 +121,23 @@
 			"hiddenWarning": "當拖拉進行中，區塊暫時隱藏以避免最近的 Google Chrome version 很多 bugs",
 			"dragErrorIcon": "Drag error icon",
 			"blockRenamedSuccess": "Block renamed successfully.",
-			"blockConfirmDelete": "Are you sure you want to delete this block?",
+			"blockConfirmDelete": {
+				"title": "Warning",
+				"text": "Are you sure you want to delete this block?",
+				"accept": "OK",
+				"decline": "Cancel"
+			},
 			"blockDeletedSuccess": "Block deleted successfully",
 			"componentConfirmDelete": "Deleting this component will affect {0} element(s){1}. By only deleting, the link to the main component will remain and it can be restored later. Do you want to detach this component or just continue to delete?",
 			"componentConfirmDeleteComponent": "and {0} component(s)",
-			"componentConfirmDetach": "Detaching this component will affect {0} element(s){1}.\n Do you want to detach this component?",
-			"componentConfirmDetachComponent": "and {0} component(s)",
 			"deleteComponentTitle": "Delete component?",
-			"detachComponentTitle": "Detach component?",
+			"detachComponent": {
+				"title": "Detach component?",
+				"confirmDetach": "Detaching this component will affect {0} element(s){1}.\n Do you want to detach this component?",
+				"confirmDetachComponent": "and {0} component(s)",
+				"accept": "OK",
+				"decline": "Cancel"
+			},
 			"detachAndDelete": "Detach & delete",
 			"onlyDelete": "Only Delete",
 			"componentDeletedSuccess": "Component deleted successfully",

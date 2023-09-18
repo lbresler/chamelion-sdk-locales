@@ -1,7 +1,12 @@
 {
 	"app": {
 		"loading": "Chargement...",
-		"confirmDelete": "Etes-vous sûr de vouloir supprimer cet élément ?"
+		"confirmDelete": {
+			"title": "Warning",
+			"text": "Etes-vous sûr de vouloir supprimer cet élément ?",
+			"accept": "OK",
+			"decline": "Annuler"
+		}
 	},
 	"editorMain": {
 		"contentHeader": {
@@ -45,14 +50,24 @@
 			}
 		},
 		"newElement": {
-			"dontShow": "Ne plus afficher cette astuce.",
+			"dontShow": {
+				"title": "Info",
+				"text": "Ne plus afficher cette astuce.",
+				"accept": "OK",
+				"decline": "Annuler"
+			},
 			"blockElement": {
 				"delete": "Supprimer"
 			},
 			"componentElement": {
 				"highlightMainComponent": "Highlight Main Component",
 				"detach": "Detach",
-				"delete": "Delete"
+				"delete": "Delete",
+				"replaceAll": "Find & Replace",
+				"replaceAllDialog": {
+					"message": "Replaced style on {0} element(s) with component",
+					"acceptLabel": "OK"
+				}
 			},
 			"logicalTreeviewDrawer": {
 				"logicalStructure": "Structure logique",
@@ -106,14 +121,23 @@
 			"hiddenWarning": "Les blocs sont temporairement masqués pendant que le Glisser-Déposer est en cours.",
 			"dragErrorIcon": "Erreur de déplacement",
 			"blockRenamedSuccess": "La section a été renommée.",
-			"blockConfirmDelete": "Etes vous sûr de vouloir supprimer cette section?",
+			"blockConfirmDelete": {
+				"title": "Warning",
+				"text": "Etes vous sûr de vouloir supprimer cette section?",
+				"accept": "OK",
+				"decline": "Annuler"
+			},
 			"blockDeletedSuccess": "Section supprimée",
 			"componentConfirmDelete": "Deleting this component will affect {0} element(s){1}. By only deleting, the link to the main component will remain and it can be restored later. Do you want to detach this component or just continue to delete?",
 			"componentConfirmDeleteComponent": "and {0} component(s)",
-			"componentConfirmDetach": "Detaching this component will affect {0} element(s){1}.\n Do you want to detach this component?",
-			"componentConfirmDetachComponent": "and {0} component(s)",
 			"deleteComponentTitle": "Delete component?",
-			"detachComponentTitle": "Detach component?",
+			"detachComponent": {
+				"title": "Detach component?",
+				"confirmDetach": "Detaching this component will affect {0} element(s){1}.\n Do you want to detach this component?",
+				"confirmDetachComponent": "and {0} component(s)",
+				"accept": "OK",
+				"decline": "Annuler"
+			},
 			"detachAndDelete": "Detach & delete",
 			"onlyDelete": "Only Delete",
 			"componentDeletedSuccess": "Component deleted successfully",
@@ -293,19 +317,19 @@
 					"title": "Update component?",
 					"message": "Saving changes will apply to all of the elements using this component. Are you sure you want to update?",
 					"acceptLabel": "Update",
-					"declineLabel": "Cancel"
+					"declineLabel": "Annuler"
 				},
 				"restoreDialog": {
 					"title": "Name already exists",
 					"message": "This name already existed before, but the main component has been deleted. Saving in this name will possibly change {0} components. Do you want to continue?",
-					"acceptLabel": "Save",
-					"declineLabel": "Cancel"
+					"acceptLabel": "Enregistrer",
+					"declineLabel": "Annuler"
 				},
 				"saveNewDialog": {
 					"title": "Component can't be updated",
 					"message": "Updating this component is not possible, because it has been previously deleted. You can however, save it as a new one. Do you want to save it?",
-					"acceptLabel": "Save",
-					"declineLabel": "Cancel"
+					"acceptLabel": "Enregistrer",
+					"declineLabel": "Annuler"
 				}
 			},
 			"dynamicImageSize": {

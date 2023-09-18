@@ -1,7 +1,12 @@
 {
 	"app": {
 		"loading": "Fa betöltése...",
-		"confirmDelete": "Biztos ki akarod törölni ezt az elemet?"
+		"confirmDelete": {
+			"title": "Warning",
+			"text": "Biztos ki akarod törölni ezt az elemet?",
+			"accept": "OK",
+			"decline": "Cancel"
+		}
 	},
 	"editorMain": {
 		"contentHeader": {
@@ -45,14 +50,24 @@
 			}
 		},
 		"newElement": {
-			"dontShow": "Ne mutasd többet!",
+			"dontShow": {
+				"title": "Info",
+				"text": "Ne mutasd többet!",
+				"accept": "OK",
+				"decline": "Cancel"
+			},
 			"blockElement": {
 				"delete": "TÖRLÉS"
 			},
 			"componentElement": {
 				"highlightMainComponent": "Highlight Main Component",
 				"detach": "Detach",
-				"delete": "Delete"
+				"delete": "Delete",
+				"replaceAll": "Find & Replace",
+				"replaceAllDialog": {
+					"message": "Replaced style on {0} element(s) with component",
+					"acceptLabel": "OK"
+				}
 			},
 			"logicalTreeviewDrawer": {
 				"logicalStructure": "Logikai struktúra",
@@ -106,14 +121,23 @@
 			"hiddenWarning": "A blokkok ideiglenesen nem elérhetőek, amíg a művelet tart. Ezzel elkerülendő a teljesítményvesztést.",
 			"dragErrorIcon": "Mozgatási hiba ikon",
 			"blockRenamedSuccess": "Blokk sikeresen átnevezve.",
-			"blockConfirmDelete": "Biztos ki akarod törölni ezt a blokkot?",
+			"blockConfirmDelete": {
+				"title": "Warning",
+				"text": "Biztos ki akarod törölni ezt a blokkot?",
+				"accept": "OK",
+				"decline": "Cancel"
+			},
 			"blockDeletedSuccess": "Blokk sikeresen törölve",
 			"componentConfirmDelete": "Deleting this component will affect {0} element(s){1}. By only deleting, the link to the main component will remain and it can be restored later. Do you want to detach this component or just continue to delete?",
 			"componentConfirmDeleteComponent": "and {0} component(s)",
-			"componentConfirmDetach": "Detaching this component will affect {0} element(s){1}.\n Do you want to detach this component?",
-			"componentConfirmDetachComponent": "and {0} component(s)",
 			"deleteComponentTitle": "Delete component?",
-			"detachComponentTitle": "Detach component?",
+			"detachComponent": {
+				"title": "Detach component?",
+				"confirmDetach": "Detaching this component will affect {0} element(s){1}.\n Do you want to detach this component?",
+				"confirmDetachComponent": "and {0} component(s)",
+				"accept": "OK",
+				"decline": "Cancel"
+			},
 			"detachAndDelete": "Detach & delete",
 			"onlyDelete": "Only Delete",
 			"componentDeletedSuccess": "Component deleted successfully",
