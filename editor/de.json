@@ -1,7 +1,12 @@
 {
 	"app": {
 		"loading": "Verzeichnis laden...",
-		"confirmDelete": "Sind Sie sicher, dass Sie dieses Element löschen möchten?"
+		"confirmDelete": {
+			"title": "Warning",
+			"text": "Sind Sie sicher, dass Sie dieses Element löschen möchten?",
+			"accept": "OK",
+			"decline": "Cancel"
+		}
 	},
 	"editorMain": {
 		"contentHeader": {
@@ -45,14 +50,24 @@
 			}
 		},
 		"newElement": {
-			"dontShow": "Zeigen Sie diesen Hinweis nicht mehr an.",
+			"dontShow": {
+				"title": "Info",
+				"text": "Zeigen Sie diesen Hinweis nicht mehr an.",
+				"accept": "OK",
+				"decline": "Cancel"
+			},
 			"blockElement": {
 				"delete": "LÖSCHEN"
 			},
 			"componentElement": {
 				"highlightMainComponent": "Highlight Main Component",
 				"detach": "Detach",
-				"delete": "Delete"
+				"delete": "Delete",
+				"replaceAll": "Find & Replace",
+				"replaceAllDialog": {
+					"message": "Replaced style on {0} element(s) with component",
+					"acceptLabel": "OK"
+				}
 			},
 			"logicalTreeviewDrawer": {
 				"logicalStructure": "Logische Struktur",
@@ -106,14 +121,23 @@
 			"hiddenWarning": "Blöcke werden vorübergehend ausgeblendet, während das Ziehen und Ablegen ausgeführt wird, um Leistungsprobleme in einer neueren fehlerhaften Google Chrome-Version zu vermeiden.",
 			"dragErrorIcon": "Fehlersymbol ziehen",
 			"blockRenamedSuccess": "Block erfolgreich umbenannt.",
-			"blockConfirmDelete": "Sind Sie sicher, dass Sie diesen Block löschen möchten?",
+			"blockConfirmDelete": {
+				"title": "Warning",
+				"text": "Sind Sie sicher, dass Sie diesen Block löschen möchten?",
+				"accept": "OK",
+				"decline": "Cancel"
+			},
 			"blockDeletedSuccess": "Block erfolgreich gelöscht",
 			"componentConfirmDelete": "Deleting this component will affect {0} element(s){1}. By only deleting, the link to the main component will remain and it can be restored later. Do you want to detach this component or just continue to delete?",
 			"componentConfirmDeleteComponent": "and {0} component(s)",
-			"componentConfirmDetach": "Detaching this component will affect {0} element(s){1}.\n Do you want to detach this component?",
-			"componentConfirmDetachComponent": "and {0} component(s)",
 			"deleteComponentTitle": "Delete component?",
-			"detachComponentTitle": "Detach component?",
+			"detachComponent": {
+				"title": "Detach component?",
+				"confirmDetach": "Detaching this component will affect {0} element(s){1}.\n Do you want to detach this component?",
+				"confirmDetachComponent": "and {0} component(s)",
+				"accept": "OK",
+				"decline": "Cancel"
+			},
 			"detachAndDelete": "Detach & delete",
 			"onlyDelete": "Only Delete",
 			"componentDeletedSuccess": "Component deleted successfully",
