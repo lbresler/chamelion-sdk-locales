@@ -2,7 +2,7 @@
 	"app": {
 		"loading": "Chargement...",
 		"confirmDelete": {
-			"title": "Warning",
+			"title": "Attention",
 			"text": "Etes-vous sûr de vouloir supprimer cet élément ?",
 			"accept": "OK",
 			"decline": "Annuler"
@@ -102,7 +102,7 @@
 			"COLUMNS": "COLONNES",
 			"BLOCK": "Sections",
 			"columns": "Colonnes",
-			"block": "section",
+			"block": "Section",
 			"loop": "Boucle",
 			"block-level-loop": "Boucle au niveau de la section",
 			"conditional": "Conditionnel",
@@ -113,7 +113,7 @@
 			"content": "Contenu",
 			"structure": "Structure",
 			"close": "Fermer",
-			"blocks": "sections",
+			"blocks": "Sections",
 			"components": "Components",
 			"search": "Chercher dans les sections",
 			"searchComponents": "Search components",
@@ -122,7 +122,7 @@
 			"dragErrorIcon": "Erreur de déplacement",
 			"blockRenamedSuccess": "La section a été renommée.",
 			"blockConfirmDelete": {
-				"title": "Warning",
+				"title": "Attention",
 				"text": "Etes vous sûr de vouloir supprimer cette section?",
 				"accept": "OK",
 				"decline": "Annuler"
