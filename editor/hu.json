@@ -742,6 +742,7 @@
 		"ok": "OK"
 	},
 	"ckEditor": {
-		"addVariable": "Változó hozzáadása"
+		"addVariable": "Változó hozzáadása",
+		"addMergeTag": "Add a merge tag"
 	}
 }

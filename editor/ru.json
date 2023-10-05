@@ -742,6 +742,7 @@
 		"ok": "OK"
 	},
 	"ckEditor": {
-		"addVariable": "Add variable"
+		"addVariable": "Add variable",
+		"addMergeTag": "Add a merge tag"
 	}
 }
