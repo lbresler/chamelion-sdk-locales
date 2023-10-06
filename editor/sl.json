@@ -742,6 +742,7 @@
 		"ok": "OK"
 	},
 	"ckEditor": {
-		"addVariable": "Dodaj spremenljivko"
+		"addVariable": "Dodaj spremenljivko",
+		"addMergeTag": "Add a merge tag"
 	}
 }
