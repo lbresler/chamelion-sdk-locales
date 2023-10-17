@@ -2,10 +2,10 @@
 	"app": {
 		"loading": "Nalagam drevo...",
 		"confirmDelete": {
-			"title": "Warning",
+			"title": "Opozorilo",
 			"text": "Ali si prepričan, da želiš izbrisati ta element?",
-			"accept": "OK",
-			"decline": "Cancel"
+			"accept": "V redu",
+			"decline": "Prekliči"
 		}
 	},
 	"editorMain": {
@@ -32,7 +32,7 @@
 				"linkVariable": "Spremenljivka povezave",
 				"link": "Povezava",
 				"title": "Naslov",
-				"unlinkVariable": "Odstrani povezavo spremenljivke",
+				"unlinkVariable": "Odstrani spremenljivko povezave",
 				"removeLink": "Odstrani povezavo",
 				"addLink": "Dodaj povezavo",
 				"protocol": "Protokol",
@@ -53,20 +53,20 @@
 			"dontShow": {
 				"title": "Info",
 				"text": "Tega namiga ne prikazuj več.",
-				"accept": "OK",
-				"decline": "Cancel"
+				"accept": "V redu",
+				"decline": "Prekliči"
 			},
 			"blockElement": {
 				"delete": "IZBRIŠI"
 			},
 			"componentElement": {
-				"highlightMainComponent": "Highlight Main Component",
-				"detach": "Detach",
-				"delete": "Delete",
-				"replaceAll": "Find & Replace",
+				"highlightMainComponent": "Poudari glavno komponento",
+				"detach": "Odstrani",
+				"delete": "Izbriši",
+				"replaceAll": "Najdi & Zamenjaj",
 				"replaceAllDialog": {
-					"message": "Replaced style on {0} element(s) with component",
-					"acceptLabel": "OK"
+					"message": "Zamenjan slog na {0} elementu(ih) s komponento",
+					"acceptLabel": "V redu"
 				}
 			},
 			"logicalTreeviewDrawer": {
@@ -91,8 +91,8 @@
 			"video": "Video",
 			"fullwidth": "Gradnik",
 			"column": "Stolpec",
-			"title": "Title",
-			"paragraph": "Paragraph",
+			"title": "Naslov",
+			"paragraph": "Odstavek",
 			"list": "List",
 			"moreThanFive": "...",
 			"hidden": ".",
@@ -114,43 +114,43 @@
 			"structure": "Struktura",
 			"close": "Zapri",
 			"blocks": "Gradniki",
-			"components": "Components",
+			"components": "Komponente",
 			"search": "Išči v gradnikih",
-			"searchComponents": "Search components",
+			"searchComponents": "Išči komponente",
 			"libraries": "Knjižnica gradnikov",
 			"hiddenWarning": "Gradniki so med vlečenjem in spuščanjem začasno skriti, da bi se izognili težavam z zmogljivostjo v nedavni različici brskalnika Google Chrome, ki je imela napake.",
 			"dragErrorIcon": "Povleci ikono napake",
 			"blockRenamedSuccess": "Gradnik uspešno preimenovan.",
 			"blockConfirmDelete": {
-				"title": "Warning",
+				"title": "Opozorilo",
 				"text": "Si prepričan, da želiš izbrisati ta gradnik?",
-				"accept": "OK",
-				"decline": "Cancel"
+				"accept": "V redu",
+				"decline": "Prekliči"
 			},
 			"blockDeletedSuccess": "Gradnik uspešno izbrisan",
-			"componentConfirmDelete": "Deleting this component will affect {0} element(s){1}. By only deleting, the link to the main component will remain and it can be restored later. Do you want to detach this component or just continue to delete?",
-			"componentConfirmDeleteComponent": "and {0} component(s)",
-			"deleteComponentTitle": "Delete component?",
+			"componentConfirmDelete": "Brisanje te komponente bo vplivalo na {0} element(-e){1}. Samo z brisanjem bo povezava do glavne komponente ostala in jo je mogoče kasneje obnoviti. Želiš odstraniti to komponento ali samo nadaljevati z brisanjem?",
+			"componentConfirmDeleteComponent": "in {0} komponenta(e)",
+			"deleteComponentTitle": "Izbiši komponento?",
 			"detachComponent": {
-				"title": "Detach component?",
-				"confirmDetach": "Detaching this component will affect {0} element(s){1}.\n Do you want to detach this component?",
-				"confirmDetachComponent": "and {0} component(s)",
-				"accept": "OK",
-				"decline": "Cancel"
+				"title": "Odstrani komponento?",
+				"confirmDetach": "Odstranjevanje te komponente bo vplivalo na {0} element(ov){1}.\n Želiš odstraniti to komponento?",
+				"confirmDetachComponent": "in {0} komponenta(e)",
+				"accept": "V redu",
+				"decline": "Prekliči"
 			},
-			"detachAndDelete": "Detach & delete",
-			"onlyDelete": "Only Delete",
-			"componentDeletedSuccess": "Component deleted successfully",
-			"componentDetachedSuccess": "Component detached successfully",
-			"componentSavedSuccess": "Component saved successfully",
-			"componentUpdatedSuccess": "Component updated successfully",
+			"detachAndDelete": "Odstrani & izbriši",
+			"onlyDelete": "Samo izbriši",
+			"componentDeletedSuccess": "Komponenta uspešno izbrisana",
+			"componentDetachedSuccess": "Komponenta uspešno odstranjena",
+			"componentSavedSuccess": "Komponenta uspešno shranjena",
+			"componentUpdatedSuccess": "Komponenta uspešno posodobljena",
 			"noResult": "Ni rezultatov. :( Izboljšaj svoje iskanje. ;)",
 			"desktopMessage": "Leva plošča se samodejno zapre in odpre, ko jo povlečeš.",
 			"mobileMessage": "Element drži nekaj sekund, da ga začneš vleči."
 		},
 		"leftPanel": {
 			"messages": {
-				"failBlockRemove": "Failed to remove block '{}'"
+				"failBlockRemove": "Zaboja ni bilo mogoče odstraniti '{}'"
 			}
 		},
 		"sharedComponents": {
@@ -166,7 +166,7 @@
 					"left": "Levo",
 					"center": "Sredinsko",
 					"right": "Desno",
-					"justify": "Justify"
+					"justify": "Obojestransko"
 				}
 			},
 			"appliedExpressions": {
@@ -267,7 +267,7 @@
 						"editHTML": "Uredi AMP HTML kodo",
 						"editCSS": "Uredi AMP CSS kodo",
 						"ampCSS": "AMP CSS",
-						"warning": "Ta koda bo prikazana samo v načinu generatorja AMP, v izvoženem HTML-ju e-maila pa bo nedotaknjena. Uporaba te funkcije je na lastno odgovornost, saj lahko vpliva na druge dele HTML in povzroči težave s prikazovanjem. Dodatna opomba: tukaj dodana koda se ne bo prikazala v urejevalniku ali predogledu."
+						"warning": "Ta koda bo prikazana samo v načinu generatorja AMP, v izvoženem HTML-ju e-mail kampanje pa bo nedotaknjena. Uporaba te funkcije je na lastno odgovornost, saj lahko vpliva na druge dele HTML in povzroči težave s prikazovanjem. Dodatna opomba: tukaj dodana koda se ne bo prikazala v urejevalniku ali predogledu."
 					},
 					"rules": {
 						"maxLength": "Največ 25 znakov"
@@ -286,50 +286,50 @@
 			},
 			"components": {
 				"labels": {
-					"title": "Components",
-					"component": "Component",
-					"empty": "No component",
-					"add": "Add component",
-					"save": "Save component",
-					"edit": "Edit component",
-					"detach": "Detach component",
-					"restore": "Restore component",
-					"reset": "Reset component",
-					"noData": "No components available",
-					"noSearchData": "No results for '{0}'"
+					"title": "Komponente",
+					"component": "Komponenta",
+					"empty": "Brez komponente",
+					"add": "Dodaj komponento",
+					"save": "Shrani komponento",
+					"edit": "Uredi komponento",
+					"detach": "Odstrani komponento",
+					"restore": "Obnovi komponento",
+					"reset": "Ponastavi komponento",
+					"noData": "Ni razpoložljivih komponent",
+					"noSearchData": "Ni rezultatov za '{0}'"
 				},
 				"drawer": {
-					"title": "Add new component",
-					"label": "Component name",
+					"title": "Dodaj novo komponento",
+					"label": "Ime komponente",
 					"rules": {
-						"required": "Name is required",
-						"noSpecialChar": "*|\":<>[]{}`\\/()';@&$ characters are not allowed",
-						"tooLong": "The component name is too long",
-						"notEmpty": "Name shouldn't be empty"
+						"required": "Ime je zahtevano",
+						"noSpecialChar": "*|\":<>[]{}`\\/()';@&$ znaki niso dovoljeni",
+						"tooLong": "Ime komponente je predolgo",
+						"notEmpty": "Ime ne sme biti prazno"
 					},
-					"placeholder": "Untitled component",
-					"cancelBtn": "Cancel",
-					"saveBtn": "Save",
-					"switchLabel": "Save as a sub-component",
-					"repeatedName": "Component must have a unique name"
+					"placeholder": "Komponenta brez naslova",
+					"cancelBtn": "Prekliči",
+					"saveBtn": "Shrani",
+					"switchLabel": "Shrani kot podkomponento",
+					"repeatedName": "Komponenta mora imeti unikatno ime"
 				},
 				"updateDialog": {
-					"title": "Update component?",
-					"message": "Saving changes will apply to all of the elements using this component. Are you sure you want to update?",
-					"acceptLabel": "Update",
-					"declineLabel": "Cancel"
+					"title": "Posodobi komponento?",
+					"message": "Shranjene spremembe bodo veljale za vse elemente, ki uporabljajo to komponento. Si prepričan, da želiš posodobiti?",
+					"acceptLabel": "Posodobi",
+					"declineLabel": "Prekliči"
 				},
 				"restoreDialog": {
-					"title": "Name already exists",
-					"message": "This name already existed before, but the main component has been deleted. Saving in this name will possibly change {0} components. Do you want to continue?",
-					"acceptLabel": "Save",
-					"declineLabel": "Cancel"
+					"title": "Ime že obstaja",
+					"message": "To ime je že obstajalo, vendar je bila glavna komponenta izbrisana. Shranjevanje pod tem imenom lahko spremeni {0} komponent. Ali želiš nadaljevati?",
+					"acceptLabel": "Shrani",
+					"declineLabel": "Prekliči"
 				},
 				"saveNewDialog": {
-					"title": "Component can't be updated",
-					"message": "Updating this component is not possible, because it has been previously deleted. You can however, save it as a new one. Do you want to save it?",
-					"acceptLabel": "Save",
-					"declineLabel": "Cancel"
+					"title": "Komponente ni mogoče posodobiti",
+					"message": "Posodabljanje te komponente ni mogoče, ker je bila predhodno izbrisana. Lahko pa jo shraniš kot novo. Jo želiš shraniti?",
+					"acceptLabel": "Shrani",
+					"declineLabel": "Prekliči"
 				}
 			},
 			"dynamicImageSize": {
@@ -471,10 +471,10 @@
 			},
 			"listMarker": {
 				"labels": {
-					"types": "Marker Types",
-					"color": "Marker Color",
-					"fontSize": "Marker Font Size",
-					"fontFamily": "Marker Font Family"
+					"types": "Vrste označevalca",
+					"color": "Barve označevalca",
+					"fontSize": "Velikost označevalca",
+					"fontFamily": "Pisava označevalca"
 				}
 			},
 			"typographyEditor": {
@@ -482,8 +482,8 @@
 				"h1": "Naslov 1",
 				"h2": "Naslov 2",
 				"h3": "Naslov 3",
-				"listMarker": "List Marker",
-				"text": "Text"
+				"listMarker": "Označevalec seznama",
+				"text": "Tekst"
 			},
 			"visibility": {
 				"labels": {
@@ -499,8 +499,8 @@
 				},
 				"warning": "To bo spremenilo širino vsebine v tem gradniku.",
 				"warningBox": {
-					"line1": "600 px je dandanes še vedno najvarnejša širina e-maila.",
-					"line2": "E-maili, ki so širši od 600-650 px, morda ne bodo ustrezali podoknu za branje naročnikov e-mailov, v programu Outlook ali Yahoo Mailu, pri manjših velikostih zaslona, kot je 1366x768."
+					"line1": "600 px je dandanes še vedno najvarnejša širina e-mail kampanje.",
+					"line2": "E-mail kampanje, ki so širše od 600-650 px, morda ne bodo ustrezale vašim prejemnikom v oknu za branje e-mail kampanj, v njihovih e-poštnih odjemalcih (recimo Outlook, Gmail ali Yahoo Mail), pri manjših velikostih zaslona, kot je 1366x768."
 				}
 			},
 			"video": {
@@ -516,7 +516,7 @@
 					"src": "Nepodprt ponudnik videoposnetkov ali pokvarjena povezava do videoposnetka"
 				}
 			},
-			"title": "Širina vsebine e-maila",
+			"title": "Širina vsebine e-mail kampanje",
 			"bodyBackground": "Ozadje vsebine",
 			"block": "Gradnik",
 			"content": "Vsebina",
@@ -577,7 +577,7 @@
 				"update": "Posodobi",
 				"cancel": "Prekliči"
 			},
-			"accept": "OK"
+			"accept": "V redu"
 		},
 		"variableList": {
 			"name": "Ime",
@@ -615,28 +615,28 @@
 		},
 		"howToUse": {
 			"color": {
-				"line1": "Zaradi barvnih spremenljivk je spreminjanje barvne teme e-maila zelo enostavno.",
+				"line1": "Zaradi barvnih spremenljivk je spreminjanje barvne teme e-mail kampanje zelo enostavno.",
 				"line2": "Kot najboljšo prakso svetujemo določitev vsaj najbolj uporabljene barve blagovne znamke in besedila.",
 				"line3": "Ko so barvne spremenljivke določene in povezane z vsemi želenimi elementi, je mogoče skupaj posodobili njihove barve."
 			},
 			"fontStack": {
 				"line1": "Tipografija je bistven element identitete vsake blagovne znamke, vse pa se začne z družino pisav.",
-				"line2": "Kot najboljšo prakso svetujemo uporabo največ dveh različni družin pisav v e-mailu: eno za naslove in drugo za odstavke.",
+				"line2": "Kot najboljšo prakso svetujemo uporabo največ dveh različni družin pisav v e-mail kampanji: eno za naslove in drugo za odstavke.",
 				"line3": "Ko so spremenljivke pisave opredeljene in povezane z vsakim želenim elementom, jih je mogoče posodobiti skupaj."
 			},
 			"image": {
-				"line1": "S slikovnimi spremenljivkami je mogoče v predlogi e-maila priročno zamenjati slikovne elemente, značilne za blagovno znamko.",
+				"line1": "S slikovnimi spremenljivkami je mogoče v predlogi e-mail kampanje priročno zamenjati slikovne elemente, značilne za blagovno znamko.",
 				"line2": "Kot najboljšo prakso svetujemo določitev logotipa podjetja, ikon po meri, ozadja slik ali drugih ponavljajočih se elementov dekoratorja kot spremenljivk slik.",
 				"line3": "Opredeljene slikovne spremenljivke, povezane z vsemi želenimi elementi, je mogoče posodobiti skupaj."
 			},
 			"link": {
-				"line1": "S spremenljivkami povezav je mogoče v predlogi e-maila priročno zamenjati povezave, značilne za blagovno znamko.",
-				"line2": "Vsako povezavo, ki ni dodana z oznako za združevanje, vendar je v e-mailu potrebna večkrat, na primer povezavo do domače strani, je treba opredeliti kot spremenljivko povezave in ne kot običajen naslov URL.",
-				"line3": "Če bi se e-mail ponovno uporabilo z drugo blagovno znamko ali bi ga bilo treba posodobiti, je mogoče te povezave v njem zamenjali skupaj."
+				"line1": "S spremenljivkami povezav je mogoče v predlogi e-mail kampanje priročno zamenjati povezave, značilne za blagovno znamko.",
+				"line2": "Vsako povezavo, ki ni dodana z oznako za združevanje, vendar je v e-mail kampanji potrebna večkrat, na primer povezavo do domače strani, je treba opredeliti kot spremenljivko povezave in ne kot običajen naslov URL.",
+				"line3": "Če bi se e-mail kampanjo ponovno uporabilo z drugo blagovno znamko ali bi jo bilo treba posodobiti, je mogoče te povezave v njej zamenjali skupaj."
 			},
 			"text": {
 				"line1": "Besedilne spremenljivke so bile ustvarjene, da je mogoče prilagoditi pisno vsebino več besedilnih vrednosti, kot so gumbi, ALT teksti ali naslovi skupaj.",
-				"line2": "Na primer, namesto da se na vsak gumb v predlogi e-maila napiše \"Preberi več\", je mogoče ustvariti spremenljivko \"gumb-tekst-1\" in jo dodeliti vsakemu od njih.",
+				"line2": "Na primer, namesto da se na vsak gumb v predlogi e-mail kampanje napiše \"Preberi več\", je mogoče ustvariti spremenljivko \"gumb-tekst-1\" in jo dodeliti vsakemu od njih.",
 				"line3": "Če bi bilo pozneje potrebno zamenjati klic k dejanju na gumbih, je potrebno le enkrat spremeniti vrednost spremenljivke za besedilo."
 			}
 		},
@@ -739,10 +739,9 @@
 	"diffPlugin": {
 		"warning": "V predlogi je 15 ali več sprememb, ki niso bile uspešno poslane v strežnik, in narejene spremembe morda ne bodo shranjene. To je lahko posledica počasne internetne povezave.",
 		"title": "Odkrita težava s povezavo",
-		"ok": "OK"
+		"ok": "V redu"
 	},
 	"ckEditor": {
-		"addVariable": "Dodaj spremenljivko",
-		"addMergeTag": "Add a merge tag"
+		"addVariable": "Dodaj spremenljivko"
 	}
 }
