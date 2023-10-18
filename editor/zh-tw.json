@@ -46,7 +46,11 @@
 				"save": "儲存",
 				"mandatoryField": "必填欄",
 				"invalidEmail": "電郵不正確",
-				"openLinkMenu": "開啟菜單修改連結 Url"
+				"openLinkMenu": "開啟菜單修改連結 Url",
+				"protocols": {
+					"email": "Email",
+					"other": "Other"
+				}
 			}
 		},
 		"newElement": {
@@ -189,6 +193,30 @@
 					"bgVariable": "背景圖片變數",
 					"hoverStyling": "Hover 格式",
 					"bgHoverColor": "Hover 背景顏色"
+				},
+				"dropdowns": {
+					"position": {
+						"leftTop": "Left Top",
+						"leftCenter": "Left Center",
+						"leftBottom": "Left Bottom",
+						"centerTop": "Center Top",
+						"centerCenter": "Center Center",
+						"centerBottom": "Center Bottom",
+						"rightTop": "Right Top",
+						"rightCenter": "Right Center",
+						"rightBottom": "Right Bottom"
+					},
+					"repeat": {
+						"noRepeat": "No Repeat",
+						"repeatX": "Repeat X",
+						"repeatY": "Repeat Y",
+						"repeat": "Repeat"
+					},
+					"size": {
+						"auto": "Auto",
+						"cover": "Cover",
+						"contain": "Contain"
+					}
 				}
 			},
 			"blockLock": {

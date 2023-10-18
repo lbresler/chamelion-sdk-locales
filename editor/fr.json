@@ -46,7 +46,11 @@
 				"save": "Enregistrer",
 				"mandatoryField": "Champ obligatoire",
 				"invalidEmail": "Adresse email invalide",
-				"openLinkMenu": "Ouvrir le menu pour éditer l'url"
+				"openLinkMenu": "Ouvrir le menu pour éditer l'url",
+				"protocols": {
+					"email": "Email",
+					"other": "Other"
+				}
 			}
 		},
 		"newElement": {
@@ -189,6 +193,30 @@
 					"bgVariable": "Image de fond variable",
 					"hoverStyling": "Style au survol",
 					"bgHoverColor": "Couleur arrière-plan du survol"
+				},
+				"dropdowns": {
+					"position": {
+						"leftTop": "Left Top",
+						"leftCenter": "Left Center",
+						"leftBottom": "Left Bottom",
+						"centerTop": "Center Top",
+						"centerCenter": "Center Center",
+						"centerBottom": "Center Bottom",
+						"rightTop": "Right Top",
+						"rightCenter": "Right Center",
+						"rightBottom": "Right Bottom"
+					},
+					"repeat": {
+						"noRepeat": "No Repeat",
+						"repeatX": "Repeat X",
+						"repeatY": "Repeat Y",
+						"repeat": "Repeat"
+					},
+					"size": {
+						"auto": "Auto",
+						"cover": "Cover",
+						"contain": "Contain"
+					}
 				}
 			},
 			"blockLock": {

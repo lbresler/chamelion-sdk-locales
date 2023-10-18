@@ -46,7 +46,11 @@
 				"save": "Mentés",
 				"mandatoryField": "Kötelező mező",
 				"invalidEmail": "Hibás e-mail cím",
-				"openLinkMenu": "A menü megnyitásával szerkesztheted a linket"
+				"openLinkMenu": "A menü megnyitásával szerkesztheted a linket",
+				"protocols": {
+					"email": "Email",
+					"other": "Other"
+				}
 			}
 		},
 		"newElement": {
@@ -189,6 +193,30 @@
 					"bgVariable": "Háttér változó",
 					"hoverStyling": "Hover stílus",
 					"bgHoverColor": "Hover háttér szín"
+				},
+				"dropdowns": {
+					"position": {
+						"leftTop": "Left Top",
+						"leftCenter": "Left Center",
+						"leftBottom": "Left Bottom",
+						"centerTop": "Center Top",
+						"centerCenter": "Center Center",
+						"centerBottom": "Center Bottom",
+						"rightTop": "Right Top",
+						"rightCenter": "Right Center",
+						"rightBottom": "Right Bottom"
+					},
+					"repeat": {
+						"noRepeat": "No Repeat",
+						"repeatX": "Repeat X",
+						"repeatY": "Repeat Y",
+						"repeat": "Repeat"
+					},
+					"size": {
+						"auto": "Auto",
+						"cover": "Cover",
+						"contain": "Contain"
+					}
 				}
 			},
 			"blockLock": {

@@ -46,7 +46,11 @@
 				"save": "Shrani",
 				"mandatoryField": "Obvezno polje",
 				"invalidEmail": "Nepravilen naslov e-maila",
-				"openLinkMenu": "Odpri meni za urejanje url povezave"
+				"openLinkMenu": "Odpri meni za urejanje url povezave",
+				"protocols": {
+					"email": "Email",
+					"other": "Other"
+				}
 			}
 		},
 		"newElement": {
@@ -189,6 +193,30 @@
 					"bgVariable": "Spremenljivka slike ozadja",
 					"hoverStyling": "Premakni miško na oblikovanje",
 					"bgHoverColor": "Premakni miško na barvo ozadja"
+				},
+				"dropdowns": {
+					"position": {
+						"leftTop": "Left Top",
+						"leftCenter": "Left Center",
+						"leftBottom": "Left Bottom",
+						"centerTop": "Center Top",
+						"centerCenter": "Center Center",
+						"centerBottom": "Center Bottom",
+						"rightTop": "Right Top",
+						"rightCenter": "Right Center",
+						"rightBottom": "Right Bottom"
+					},
+					"repeat": {
+						"noRepeat": "No Repeat",
+						"repeatX": "Repeat X",
+						"repeatY": "Repeat Y",
+						"repeat": "Repeat"
+					},
+					"size": {
+						"auto": "Auto",
+						"cover": "Cover",
+						"contain": "Contain"
+					}
 				}
 			},
 			"blockLock": {
@@ -742,6 +770,7 @@
 		"ok": "V redu"
 	},
 	"ckEditor": {
-		"addVariable": "Dodaj spremenljivko"
+		"addVariable": "Dodaj spremenljivko",
+		"addMergeTag": "Add a merge tag"
 	}
 }
