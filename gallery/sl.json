@@ -30,7 +30,7 @@
 		"dropImage": "Povleci slike sem\nali {action} za prenos\n(Največja velikost datoteke: {maxFileSize} MB.)",
 		"browseAction": "brskaj",
 		"or": "ali",
-		"pasteUrl": "Sharni sliko iz URL naslova",
+		"pasteUrl": "Shrani sliko iz URL naslova",
 		"browseStockPhotos": "Brskaj med stock slikami"
 	},
 	"fileUploadUrlZone": {

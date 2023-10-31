@@ -48,8 +48,8 @@
 				"invalidEmail": "Nepravilen naslov e-maila",
 				"openLinkMenu": "Odpri meni za urejanje url povezave",
 				"protocols": {
-					"email": "Email",
-					"other": "Other"
+					"email": "E-mail",
+					"other": "Drugo"
 				}
 			}
 		},
@@ -196,26 +196,26 @@
 				},
 				"dropdowns": {
 					"position": {
-						"leftTop": "Left Top",
-						"leftCenter": "Left Center",
-						"leftBottom": "Left Bottom",
-						"centerTop": "Center Top",
-						"centerCenter": "Center Center",
-						"centerBottom": "Center Bottom",
-						"rightTop": "Right Top",
-						"rightCenter": "Right Center",
-						"rightBottom": "Right Bottom"
+						"leftTop": "Levo zgoraj",
+						"leftCenter": "Levo sredinsko",
+						"leftBottom": "Levo spodaj",
+						"centerTop": "Sredinsko zgoraj",
+						"centerCenter": "Sredinsko sredinsko",
+						"centerBottom": "Sredinsko spodaj",
+						"rightTop": "Desno zgoraj",
+						"rightCenter": "Desno sredinsko",
+						"rightBottom": "Desno spodaj"
 					},
 					"repeat": {
-						"noRepeat": "No Repeat",
-						"repeatX": "Repeat X",
-						"repeatY": "Repeat Y",
-						"repeat": "Repeat"
+						"noRepeat": "Ne ponovi",
+						"repeatX": "Ponovi X",
+						"repeatY": "Ponovi Y",
+						"repeat": "Ponovi"
 					},
 					"size": {
-						"auto": "Auto",
-						"cover": "Cover",
-						"contain": "Contain"
+						"auto": "Avtomatsko",
+						"cover": "Pokrij",
+						"contain": "Vsebuj"
 					}
 				}
 			},
@@ -771,6 +771,6 @@
 	},
 	"ckEditor": {
 		"addVariable": "Dodaj spremenljivko",
-		"addMergeTag": "Add a merge tag"
+		"addMergeTag": "Dodaj oznako za združevanje"
 	}
 }
