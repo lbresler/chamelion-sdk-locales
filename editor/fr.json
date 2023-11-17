@@ -432,8 +432,8 @@
 					"left": "Gauche",
 					"bottom": "Bas",
 					"right": "Droite",
-					"Paddings": "Espacement",
-					"Margins": "Marges",
+					"padding": "Espacement",
+					"margin": "Marges",
 					"separate": "Séparations"
 				}
 			},
@@ -579,7 +579,23 @@
 		"welcome": "Ravi de vous revoir !"
 	},
 	"header": {
+		"undo": "Undo",
+		"redo": "Redo",
+		"save": "Save",
+		"convert": "Convert Document",
 		"zoom": "Zoomer"
+	},
+	"convertModal": {
+		"title": "Email Conversion - Comparison Tool",
+		"toggleLabel": "Scroll both sides together",
+		"textLine1": "This email requires conversion.",
+		"textLine2": "Please check below if the new version looks good or not.",
+		"textLine3": "If you see significant differences, contact customer support.",
+		"oldLabel": "Old version",
+		"newLabel": "New version",
+		"convert": "Convert",
+		"cancel": "Cancel",
+		"success": "Conversion successful"
 	},
 	"variable": {
 		"clearVariables": "Supprimer",
