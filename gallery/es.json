@@ -1,0 +1,130 @@
+{
+    "defaultEditorImageTitle": "Sin título",
+    "app": {
+        "headerTitle": "Galería",
+        "myImages": "Mis imágenes",
+        "stockPhotos": "Buscar Imágenes de archivo"
+    },
+    "fileList": {
+        "searchNoResult": "Sin imágenes.",
+        "imageCardActions": {
+            "save": "Añadir a Plantillas",
+            "pick": "Seleccionar",
+            "crop": "Recortar para ajustar",
+            "edit": "Editar",
+            "delete": "Borrar"
+        },
+        "imageRemoved": "¡Imagen eliminada con éxito!"
+    },
+    "fileListItem": {
+        "dialogAcceptLabel": "OK",
+        "dialogDeclineLabel": "Cancelar",
+        "deleteDialogText": "¿Estás seguro de que quieres borrar esta imagen? Este proceso no se puede deshacer.",
+        "deleteDialogTitle": "Borrar imagen",
+        "smallImageWarning": "Demasiado pequeño",
+        "size": "Tamaño: {imageWidth} x {imageHeight}",
+        "ratio": "Aspecto Ratio: {aspectRatio}",
+        "saved": "{0} ha sido guardado"
+    },
+    "fileUploadDropZone": {
+        "dropImage": "Suelta aquí las imágenes \\no {acción} para cargar",
+        "browseAction": "buscar",
+        "or": "o",
+        "pasteUrl": "Guardar imagen de una URL",
+        "browseStockPhotos": "Buscar Imágenes de archivo"
+    },
+    "fileUploadUrlZone": {
+        "urlUploadInfo": "No se admite la carga desde el protocolo 'http://'. Carga la imagen en el protocolo 'https://' o guárdala en tu ordenador y súbela desde tus archivos.",
+        "urlUploadSupportedImages": "Admitimos los siguientes formatos de imagen: {supportedImageFormats}",
+        "urlUploadSubmit": "Añadir a Plantillas"
+    },
+    "folderTreeView": {
+        "createButtonText": "Crear subcarpeta",
+        "createDialogAcceptLabel": "Crear",
+        "createDialogTitle": "Crear nueva carpeta",
+        "createSuccessMessage": "¡Subcarpeta creada!",
+        "deleteButtonText": "Eliminar carpeta",
+        "dialogDeclineLabel": "Cancelar",
+        "deleteDialogText": "¿Estás seguro de que deseas eliminar esta carpeta con todas sus subcarpetas? Este proceso no se puede deshacer.",
+        "deleteDialogTitle": "Eliminar carpeta",
+        "dialogAcceptLabel": "OK",
+        "dialogLabel": "Nombre de la carpeta",
+        "deleteSuccessMessage": "¡Carpeta eliminada con éxito!",
+        "renameButtonText": "Renombrar Carpeta",
+        "renameDialogAcceptLabel": "Renombrar",
+        "renameDialogTitle": "Renombrar Carpeta",
+        "renameSuccessMessage": "¡Carpeta renombrada con éxito!",
+        "nameRequiredText": "El nombre es obligatorio."
+    },
+    "photoEditorPane": {
+        "cropToFit": "Recortar para ajustar"
+    },
+    "photoCropper": {
+        "crop": {
+            "custom": "personalizar",
+            "square": "cuadrado",
+            "landscape": "paisaje",
+            "portrait": "retrato"
+        },
+        "edit": {
+            "rotateRight": "rotar",
+            "rotateLeft": "rotar",
+            "flipX": "voltear X",
+            "flipY": "voltear Y",
+            "downscale": "escala reducida"
+        },
+        "header": {
+            "reset": "reiniciar",
+            "save": "guardar"
+        }
+    },
+    "searchZone": {
+        "search": "Buscar",
+        "arrangeSearch": "Ordenar por",
+        "searchOptions": {
+            "A-Z": "A - Z",
+            "Z-A": "Z - A",
+            "newest": "Más reciente",
+            "oldest": "Oldest"
+        }
+    },
+    "stockPhotoListItem": {
+        "pexelImport": "Añadir a Plantillas"
+    },
+    "stockPhotosModal": {
+        "stockPhotos": "Banco de imágenes",
+        "size": "Tamaño de la imagen",
+        "search": "Buscar",
+        "noResultRefine": "No hay resultados. Afina tu búsqueda.",
+        "pexelChooseFrom": "Elige gratis entre millones de imágenes de alta calidad",
+        "pexelLicense": "Licencia Pexels",
+        "pexelPoweredBy": "Powered by",
+        "pexelLicenseInfo": "Todas las imágenes se publican bajo la {licencia}",
+        "imageSizes": {
+            "tiny": "Pequeño",
+            "landscape": "Paisaje",
+            "portrait": "Retrato",
+            "small": "Pequeño",
+            "medium": "medio",
+            "large": "Grande",
+            "large2x": "Grande 2x",
+            "original": "Original"
+        }
+    },
+    "uploadModal": {
+        "uploadModalTitle": "Aviso",
+        "uploadModalText": "¿Estás seguro de que deseas cancelar el proceso de carga?",
+        "uploadModalContinue": "Seguir subiendo",
+        "uploadModalCancel": "Cancelar proceso",
+        "uploadingInProgress": "Subiendo imágenes",
+        "uploadingInFinished": "Carga finalizada"
+    },
+    "errors": {
+        "supportedFileTypes": "Tipos de archivo compatibles: {0}, {1}, {2} y {3} solamente.",
+        "notImage": "No es un archivo de imagen.",
+        "tooLargeSize": "Tu archivo es demasiado grande. Máx.: {maxFileSize} MB",
+        "httpsMissing": "URL no válida. Por favor, sirva la imagen desde HTTPS.",
+        "invalidImageUrl": "Esta URL no es válida",
+        "editImage": "Error al cargar la imagen para editar."
+    }
+}
