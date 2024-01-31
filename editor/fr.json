@@ -49,7 +49,7 @@
 				"openLinkMenu": "Ouvrir le menu pour éditer l'url",
 				"protocols": {
 					"email": "Email",
-					"other": "Other"
+					"other": "Autre"
 				}
 			}
 		},
@@ -65,9 +65,9 @@
 			},
 			"componentElement": {
 				"highlightMainComponent": "Highlight Main Component",
-				"detach": "Detach",
-				"delete": "Delete",
-				"replaceAll": "Find & Replace",
+				"detach": "Détacher",
+				"delete": "Effacer",
+				"replaceAll": "Chercher et remplacer",
 				"replaceAllDialog": {
 					"message": "Replaced style on {0} element(s) with component",
 					"acceptLabel": "OK"
@@ -86,7 +86,7 @@
 			"elements": "Eléments",
 			"brand": "Marque",
 			"body": "Page",
-			"text": "Text",
+			"text": "Texte",
 			"image": "Image",
 			"button": "Bouton",
 			"divider": "Séparateur",
@@ -97,8 +97,8 @@
 			"column": "Colonne",
 			"moreThanFive": "...",
 			"title": "Title",
-			"paragraph": "Paragraph",
-			"list": "List",
+			"paragraph": "Paragraphe",
+			"list": "Liste",
 			"hidden": ".",
 			"box": "bloc",
 			"BOX": "Bloc",
@@ -120,7 +120,7 @@
 			"blocks": "Sections",
 			"components": "Components",
 			"search": "Chercher dans les sections",
-			"searchComponents": "Search components",
+			"searchComponents": "Chercher dans les composants",
 			"libraries": "Bibliothèques des blocs",
 			"hiddenWarning": "Les blocs sont temporairement masqués pendant que le Glisser-Déposer est en cours.",
 			"dragErrorIcon": "Erreur de déplacement",
@@ -132,21 +132,21 @@
 				"decline": "Annuler"
 			},
 			"blockDeletedSuccess": "Section supprimée",
-			"componentConfirmDelete": "Deleting this component will affect {0} element(s){1}. By only deleting, the link to the main component will remain and it can be restored later. Do you want to detach this component or just continue to delete?",
-			"componentConfirmDeleteComponent": "and {0} component(s)",
-			"deleteComponentTitle": "Delete component?",
+			"componentConfirmDelete": "Effacer ce composant va affecter {0} element(s){1}. En effaçant uniquement, le lien vers le composant principal sera conservé et pourra être restauré par la suite. Voulez-vous détacher le composant ou continuer en l'éffaçant uniquement?",
+			"componentConfirmDeleteComponent": "et {0} composant(s)",
+			"deleteComponentTitle": "Détacher le compostant?",
 			"detachComponent": {
-				"title": "Detach component?",
-				"confirmDetach": "Detaching this component will affect {0} element(s){1}.\n Do you want to detach this component?",
-				"confirmDetachComponent": "and {0} component(s)",
+				"title": "Détacher le compostant?",
+				"confirmDetach": "Détacher ce composant va affecter {0} element(s){1}.\n Voulez-vous continuer?",
+				"confirmDetachComponent": "et {0} composant(s)",
 				"accept": "OK",
 				"decline": "Annuler"
 			},
-			"detachAndDelete": "Detach & delete",
-			"onlyDelete": "Only Delete",
-			"componentDeletedSuccess": "Component deleted successfully",
-			"componentDetachedSuccess": "Component detached successfully",
-			"componentSavedSuccess": "Component saved successfully",
+			"detachAndDelete": "Détacher et supprimer",
+			"onlyDelete": "Supprimer uniquement",
+			"componentDeletedSuccess": "Composant supprimé",
+			"componentDetachedSuccess": "Composant détaché",
+			"componentSavedSuccess": "Composant enregistré",
 			"componentUpdatedSuccess": "Component updated successfully",
 			"noResult": "Pas de résultat. : ( Affinez votre recherche. ;)",
 			"desktopMessage": "Le menu de gauche est masqué pendant le déplacement.",
@@ -154,7 +154,7 @@
 		},
 		"leftPanel": {
 			"messages": {
-				"failBlockRemove": "Failed to remove block '{}'"
+				"failBlockRemove": "Erreur lors de la suppression du bloc '{}'"
 			}
 		},
 		"sharedComponents": {
@@ -196,26 +196,26 @@
 				},
 				"dropdowns": {
 					"position": {
-						"leftTop": "Left Top",
-						"leftCenter": "Left Center",
-						"leftBottom": "Left Bottom",
-						"centerTop": "Center Top",
-						"centerCenter": "Center Center",
-						"centerBottom": "Center Bottom",
-						"rightTop": "Right Top",
-						"rightCenter": "Right Center",
-						"rightBottom": "Right Bottom"
+						"leftTop": "Gauche haut",
+						"leftCenter": "Gauche centre",
+						"leftBottom": "Gauche bas",
+						"centerTop": "Centre haut",
+						"centerCenter": "Centrer",
+						"centerBottom": "Centre bas",
+						"rightTop": "Droite haut",
+						"rightCenter": "Droite centre",
+						"rightBottom": "Droite bas"
 					},
 					"repeat": {
-						"noRepeat": "No Repeat",
-						"repeatX": "Repeat X",
-						"repeatY": "Repeat Y",
-						"repeat": "Repeat"
+						"noRepeat": "Ne pas répéter",
+						"repeatX": "Répéter X",
+						"repeatY": "Répéter Y",
+						"repeat": "Répéter"
 					},
 					"size": {
 						"auto": "Auto",
-						"cover": "Cover",
-						"contain": "Contain"
+						"cover": "Couvrir",
+						"contain": "Contenir"
 					}
 				}
 			},
@@ -314,37 +314,37 @@
 			},
 			"components": {
 				"labels": {
-					"title": "Components",
-					"component": "Component",
-					"empty": "No component",
-					"add": "Add component",
-					"save": "Save component",
-					"edit": "Edit component",
-					"detach": "Detach component",
-					"restore": "Restore component",
-					"reset": "Reset component",
-					"noData": "No components available",
-					"noSearchData": "No results for '{0}'"
+					"title": "Composants",
+					"component": "Composant",
+					"empty": "Pas de composant",
+					"add": "Ajouter un composant",
+					"save": "Enregistrer le composant",
+					"edit": "Editer le composant",
+					"detach": "Détacher le composant",
+					"restore": "Restaurer le composant",
+					"reset": "Réinitialiser le composant",
+					"noData": "Pas de compmosant disponible",
+					"noSearchData": "Pas de résultat popur '{0}'"
 				},
 				"drawer": {
-					"title": "Add new component",
-					"label": "Component name",
+					"title": "Ajouter un nouveau composant",
+					"label": "Nom du composant",
 					"rules": {
-						"required": "Name is required",
-						"noSpecialChar": "*|\":<>[]{}`\\/()';@&$ characters are not allowed",
-						"tooLong": "The component name is too long",
-						"notEmpty": "Name shouldn't be empty"
+						"required": "Le nom est obligatoire",
+						"noSpecialChar": "Les caractères *|\":<>[]{}`\\/()';@&$ ne sont pas autorisés",
+						"tooLong": "Le nom du composant est trop long",
+						"notEmpty": "Le nom ne doit pas être vide"
 					},
 					"placeholder": "Sans titre",
 					"cancelBtn": "Annuler",
 					"saveBtn": "Enregistrer",
-					"switchLabel": "Save as a sub-component",
-					"repeatedName": "Component must have a unique name"
+					"switchLabel": "Enregistrer en temps que sous-composant",
+					"repeatedName": "Les composants doivent avoir un nom unique"
 				},
 				"updateDialog": {
-					"title": "Update component?",
-					"message": "Saving changes will apply to all of the elements using this component. Are you sure you want to update?",
-					"acceptLabel": "Update",
+					"title": "Mettre à jour le composant?",
+					"message": "Enregistrer les modifications s'appliquera à tous les éléments utilisant ce composant. Êtes-vous sûr de vouloir mettre à jour ?",
+					"acceptLabel": "Mettre à jour",
 					"declineLabel": "Annuler"
 				},
 				"restoreDialog": {
@@ -434,7 +434,7 @@
 					"right": "Droite",
 					"padding": "Espacement",
 					"margin": "Marges",
-					"separate": "Séparations"
+					"separate": "Avancé"
 				}
 			},
 			"social": {
@@ -494,15 +494,15 @@
 					"startTyping": "Commencer à taper pour rechercher",
 					"letterSpacing": "Espacement entre lettres",
 					"customLetterSpacing": "Espacement personnalisé entre les lettres",
-					"lineSpacing": "Line Spacing"
+					"lineSpacing": "Hauteur de ligne"
 				}
 			},
 			"listMarker": {
 				"labels": {
-					"types": "Marker Types",
-					"color": "Marker Color",
-					"fontSize": "Marker Font Size",
-					"fontFamily": "Marker Font Family"
+					"types": "Types de marqueur",
+					"color": "Couleur de marqueur",
+					"fontSize": "Police du marqueur",
+					"fontFamily": "Famille de police du marqueur"
 				}
 			},
 			"typographyEditor": {
@@ -579,23 +579,23 @@
 		"welcome": "Ravi de vous revoir !"
 	},
 	"header": {
-		"undo": "Undo",
-		"redo": "Redo",
-		"save": "Save",
-		"convert": "Convert Document",
+		"undo": "Annuler",
+		"redo": "Rétablir",
+		"save": "Enregistrer",
+		"convert": "Convertir le document",
 		"zoom": "Zoomer"
 	},
 	"convertModal": {
-		"title": "Email Conversion - Comparison Tool",
-		"toggleLabel": "Scroll both sides together",
-		"textLine1": "This email requires conversion.",
-		"textLine2": "Please check below if the new version looks good or not.",
-		"textLine3": "If you see significant differences, contact customer support.",
-		"oldLabel": "Old version",
-		"newLabel": "New version",
-		"convert": "Convert",
-		"cancel": "Cancel",
-		"success": "Conversion successful"
+		"title": "Conversion d'un message - Outil de comparaison",
+		"toggleLabel": "Vous pouvez faire défiler les deux côtés",
+		"textLine1": "Ce message nécessite une conversion.",
+		"textLine2": "Vérifiez le résultat ci-dessous.",
+		"textLine3": "Si vous voyez des différences importantes, contactez le support.",
+		"oldLabel": "Ancienne version",
+		"newLabel": "Nouvelle version",
+		"convert": "Convertir",
+		"cancel": "Annuler",
+		"success": "Conversion réussie"
 	},
 	"variable": {
 		"clearVariables": "Supprimer",
@@ -604,7 +604,7 @@
 		"selectedVariable": "Variable sélectionnée",
 		"variableModal": {
 			"color": "Couleur",
-			"fontStack": "Font Stack",
+			"fontStack": "Famille de polices",
 			"image": "Image",
 			"link": "Lien",
 			"text": "Texte",
@@ -688,7 +688,7 @@
 			"label": "Texte",
 			"modeSwitchLabel": "Utiliser le format HTML",
 			"modeSwitchLabelInfo": "Enregistrez la variable sans balises HTML et utilisez-les comme texte alternatif ou titre de lien",
-			"subTypeInfo": "The used text formats in this variable editor modal will be overwritten by the text element's format option that the variable is linked to",
+			"subTypeInfo": "Les formats de texte utilisés dans l'éditeur de variable seront remplacés par l'option de format du texte de l'élément auquel la variable est liée",
 			"addSimpleText": "Entrer votre texte non formaté ici",
 			"rules": {
 				"required": "Ceci est un champ obligatoire"
@@ -787,6 +787,6 @@
 	},
 	"ckEditor": {
 		"addVariable": "Ajouter une variable",
-		"addMergeTag": "Add a merge tag"
+		"addMergeTag": "Ajouter un champ de fusion"
 	}
 }
