@@ -715,9 +715,9 @@
 					"addIcon": "Ajouter nouvelle icône",
 					"layout": "Disposition",
 					"align": {
-						"text": "Alignement",
+						"text": "Align.",
 						"left": "Gauche",
-						"center": "Centrer",
+						"center": "Centre",
 						"right": "Droite"
 					},
 					"size": {
@@ -824,11 +824,11 @@
 			"boxBackground": "Fond du bloc",
 			"buttonBackground": "Fond bouton",
 			"buttonAlignment": "Alignement bouton",
-			"textAlignment": "Text alignment",
-			"buttonTextSettings": "Propriétés du boutton",
+			"textAlignment": "Alignement du texte",
+			"buttonTextSettings": "Propriétés du bouton",
 			"multicolumnBackground": "Fond multicolonne",
 			"imageAlignment": "Alignement image",
-			"thumbnailAlignment": "Alignement Aperçu",
+			"thumbnailAlignment": "Alignement aperçu",
 			"imageBackground": "Image de fond",
 			"dividerBackground": "Fond séparateur",
 			"columnBackground": "Fond colonne",
